@@ -1,0 +1,53 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+
+# AI / answer-engine crawlers welcome (GEO)
+User-agent: GPTBot
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+User-agent: ClaudeBot
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+User-agent: Google-Extended
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+User-agent: PerplexityBot
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+User-agent: CCBot
+Allow: /
+Disallow: /dashboard.html
+Disallow: /cms/
+Disallow: /app/
+Disallow: /crew/
+Disallow: /jobs/
+Disallow: /api/
+
+Sitemap: https://brandvitals.io/sitemap.xml
+# Plain-text summary for answer engines: https://brandvitals.io/llms.txt

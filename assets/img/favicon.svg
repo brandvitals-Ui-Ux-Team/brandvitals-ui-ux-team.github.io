@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Brand Vitals tab icon: the logo's heartbeat pulse in its cyan-to-green gradient -->
+  <defs>
+    <linearGradient id="bvTile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D1A23"/>
+      <stop offset="1" stop-color="#05080B"/>
+    </linearGradient>
+    <linearGradient id="bvPulse" x1="7" y1="0" x2="57" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00AAFF"/>
+      <stop offset="1" stop-color="#07E4A1"/>
+    </linearGradient>
+    <radialGradient id="bvGlow" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="0" stop-color="#00AAFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00AAFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bvTile)"/>
+  <rect width="64" height="64" rx="14" fill="url(#bvGlow)"/>
+  <path d="M7 35 H19 L24 41 L31 12 L38 50 L43 35 H57" fill="none" stroke="url(#bvPulse)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "brand-vitals",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js", "8944"],
+      "port": 8944
+    }
+  ]
+}

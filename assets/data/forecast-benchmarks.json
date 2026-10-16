@@ -1,0 +1,3188 @@
+{
+ "_readme": "See assets/data/README.md. Every value stays null until the team fills it from a real source. Rates are fractions (0.012 = 1.2%). Money is in the market's currency.",
+ "version": 1,
+ "updated": null,
+ "markets": [
+  {
+   "key": "eg",
+   "en": "Egypt",
+   "ar": "مصر",
+   "currency": "EGP"
+  },
+  {
+   "key": "sa",
+   "en": "Saudi Arabia",
+   "ar": "السعودية",
+   "currency": "SAR"
+  },
+  {
+   "key": "both",
+   "en": "Both",
+   "ar": "الاتنين",
+   "currency": "EGP"
+  }
+ ],
+ "industries": [
+  {
+   "key": "ecommerce",
+   "en": "E-commerce",
+   "ar": "التجارة الإلكترونية"
+  },
+  {
+   "key": "healthcare",
+   "en": "Healthcare",
+   "ar": "الرعاية الصحية"
+  },
+  {
+   "key": "retail",
+   "en": "Retail",
+   "ar": "التجزئة"
+  },
+  {
+   "key": "real-estate",
+   "en": "Real estate",
+   "ar": "العقارات"
+  },
+  {
+   "key": "luxury",
+   "en": "Luxury & lifestyle",
+   "ar": "الرفاهية ونمط الحياة"
+  },
+  {
+   "key": "saas",
+   "en": "Technology & SaaS",
+   "ar": "التقنية والبرمجيات"
+  },
+  {
+   "key": "hospitality",
+   "en": "Hospitality & tourism",
+   "ar": "الضيافة والسياحة"
+  },
+  {
+   "key": "other",
+   "en": "Other",
+   "ar": "مجال تاني"
+  }
+ ],
+ "goals": [
+  "sales",
+  "leads",
+  "bookings",
+  "installs",
+  "visits"
+ ],
+ "min_budget": {
+  "EGP": 30000,
+  "SAR": null,
+  "_note": "Smallest monthly budget we take on (same as the brief forms). Below it the Forecast points to Vitals Web packages and Vitals Score."
+ },
+ "scenario_factors": {
+  "conservative": null,
+  "expected": null,
+  "strong": null,
+  "_note": "Multiplies the cost per result in each column."
+ },
+ "learning_phase_factor": null,
+ "stretch_max_gap": null,
+ "_stretch_note": "Team rule for the reality label: a gap up to this fraction reads 'Stretch', above it 'Unrealistic'.",
+ "seasons": [
+  {
+   "key": "ramadan",
+   "en": "Ramadan",
+   "ar": "رمضان",
+   "markets": [
+    "eg",
+    "sa"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "key": "white-friday",
+   "en": "White Friday",
+   "ar": "الجمعة البيضا",
+   "markets": [
+    "eg",
+    "sa"
+   ],
+   "start": null,
+   "end": null
+  },
+  {
+   "key": "founding-day",
+   "en": "Saudi Founding Day",
+   "ar": "يوم التأسيس",
+   "markets": [
+    "sa"
+   ],
+   "start": "2027-02-22",
+   "end": "2027-02-22"
+  },
+  {
+   "key": "national-day",
+   "en": "Saudi National Day",
+   "ar": "اليوم الوطني السعودي",
+   "markets": [
+    "sa"
+   ],
+   "start": "2027-09-23",
+   "end": "2027-09-23"
+  }
+ ],
+ "benchmarks": {
+  "eg": {
+   "ecommerce": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "healthcare": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "retail": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "real-estate": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "luxury": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "saas": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "hospitality": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "other": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   }
+  },
+  "sa": {
+   "ecommerce": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "healthcare": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "retail": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "real-estate": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "luxury": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "saas": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "hospitality": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "other": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   }
+  },
+  "both": {
+   "ecommerce": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "healthcare": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "retail": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "real-estate": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "luxury": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "saas": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "hospitality": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   },
+   "other": {
+    "sales": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "leads": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "close_rate": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "bookings": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "installs": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    },
+    "visits": {
+     "cpm": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "ctr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cvr": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "cost_per_result": {
+      "low": null,
+      "mid": null,
+      "high": null
+     },
+     "source": null,
+     "updated": null
+    }
+   }
+  }
+ }
+}
