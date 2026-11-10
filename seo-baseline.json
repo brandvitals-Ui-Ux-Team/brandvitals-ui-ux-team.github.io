@@ -1,0 +1,3146 @@
+{
+ "pages": {
+  "/about.html": {
+   "title": "About Brand Vitals | Marketing Agency in Cairo",
+   "description": "Brand Vitals is a full-service marketing agency in Cairo: strategy, creative, web and performance marketing for brands growing in Egypt and Saudi Arabia.",
+   "canonical": "https://brandvitals.io/about.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/about.html",
+    "en https://brandvitals.io/about.html",
+    "x-default https://brandvitals.io/about.html"
+   ],
+   "h1": [
+    "Built in Cairo. Working across MENA."
+   ],
+   "h2": [
+    "Built for two languages. Fluent in both.",
+    "Principles we don't negotiate.",
+    "One home base. Regional reach.",
+    "Do the best work of your career.",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "AboutPage",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "About Brand Vitals",
+   "words": 383
+  },
+  "/analytics-tracking.html": {
+   "title": "GA4 & Server-Side Tracking in Egypt | Brand Vitals",
+   "description": "Trustworthy measurement for marketing teams: GA4, Google Tag Manager, Meta Conversions API, server-side tracking, attribution and dashboards your team can act on.",
+   "canonical": "https://brandvitals.io/analytics-tracking.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/analytics-tracking.html",
+    "en https://brandvitals.io/analytics-tracking.html",
+    "x-default https://brandvitals.io/analytics-tracking.html"
+   ],
+   "h1": [
+    "Numbers you can actually trust."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Why do ad platforms and GA4 show different numbers?",
+    "Is server-side tracking necessary?",
+    "Do you respect user privacy?",
+    "Can you work with our developers?"
+   ],
+   "og": "GA4, Server-Side Tracking & Marketing Analytics in Egypt | Brand Vitals",
+   "words": 462
+  },
+  "/ar/about.html": {
+   "title": "عن براند فايتلز | وكالة تسويق في القاهرة",
+   "description": "براند فايتلز وكالة تسويق متكاملة في القاهرة: استراتيجية وإبداع وويب وتسويق أداء للعلامات التي تنمو في مصر والسعودية.",
+   "canonical": "https://brandvitals.io/ar/about.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/about.html",
+    "en https://brandvitals.io/about.html",
+    "x-default https://brandvitals.io/about.html"
+   ],
+   "h1": [
+    "مبنيّون في القاهرة. نعمل عبر المنطقة."
+   ],
+   "h2": [
+    "بُنينا للغتين. ونتقن كلتيهما.",
+    "مبادئ لا نساوم عليها.",
+    "مقرٌّ واحد. وحضورٌ إقليمي.",
+    "قدّم أفضل عملٍ في مسيرتك.",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "AboutPage",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "About Brand Vitals",
+   "words": 317
+  },
+  "/ar/analytics-tracking.html": {
+   "title": "GA4 والتتبع من السيرفر وتحليلات التسويق في مصر | Brand Vitals",
+   "description": "قياس موثوق لفرق التسويق: GA4 وGoogle Tag Manager وMeta Conversions API والتتبع من السيرفر والإسناد ولوحات تحكم يمكن لفريقك العمل بها.",
+   "canonical": "https://brandvitals.io/ar/analytics-tracking.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/analytics-tracking.html",
+    "en https://brandvitals.io/analytics-tracking.html",
+    "x-default https://brandvitals.io/analytics-tracking.html"
+   ],
+   "h1": [
+    "أرقام تستطيع الوثوق بها فعلًا."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Why do ad platforms and GA4 show different numbers?",
+    "Is server-side tracking necessary?",
+    "Do you respect user privacy?",
+    "Can you work with our developers?"
+   ],
+   "og": "GA4 والتتبع من السيرفر وتحليلات التسويق في مصر | Brand Vitals",
+   "words": 399
+  },
+  "/ar/blog-arabic-seo-guide.html": {
+   "title": "السيو العربي ليس سيو مترجمًا: دليل عملي | Brand Vitals",
+   "description": "نية البحث واللهجة والكتابة: ما الذي يتصدّر فعلًا في البحث العربي المصري والإقليمي، وكيف تهيكل موقعًا ثنائي اللغة ليتصدّر باللغتين.",
+   "canonical": "https://brandvitals.io/ar/blog-arabic-seo-guide.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-arabic-seo-guide.html",
+    "en https://brandvitals.io/blog-arabic-seo-guide.html",
+    "x-default https://brandvitals.io/blog-arabic-seo-guide.html"
+   ],
+   "h1": [
+    "السيو العربي ليس سيو مترجمًا: دليل عملي"
+   ],
+   "h2": [
+    "1. امنح العربية روابطها الخاصة",
+    "2. ابحث باللهجة لا بالفصحى فقط",
+    "3. انتبه لطريقة الكتابة",
+    "4. اكتب بلغة أصلية",
+    "5. استعد لإجابات الذكاء الاصطناعي",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "السيو العربي ليس سيو مترجمًا: دليل عملي | Brand Vitals",
+   "words": 379
+  },
+  "/ar/blog-b2b-to-b2c.html": {
+   "title": "من B2B إلى B2C: إعادة التموضع للمستهلكين | Brand Vitals",
+   "description": "كيف يتعلّم عمل قائم على الجملة مخاطبة المستهلكين وتنمية حضوره الرقمي دون خسارة عملائه التجاريين.",
+   "canonical": "https://brandvitals.io/ar/blog-b2b-to-b2c.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-b2b-to-b2c.html",
+    "en https://brandvitals.io/blog-b2b-to-b2c.html",
+    "x-default https://brandvitals.io/blog-b2b-to-b2c.html"
+   ],
+   "h1": [
+    "من B2B إلى B2C: إعادة التموضع للمستهلكين"
+   ],
+   "h2": [
+    "ابدأ بمشكلة المستهلك",
+    "احمِ علاقاتك التجارية",
+    "ابنِ الحضور خطوة بخطوة",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "من B2B إلى B2C: إعادة التموضع للمستهلكين | Brand Vitals",
+   "words": 290
+  },
+  "/ar/blog-creative-testing.html": {
+   "title": "اختبار الإبداع يتفوّق على الميزانيات الأكبر | Brand Vitals",
+   "description": "لماذا يعدّ التكرار الإبداعي المنضبط، لا الإنفاق، هو الرافعة الحقيقية في الإعلانات المدفوعة، ونظام اختبار أسبوعي بسيط يمكنك تطبيقه.",
+   "canonical": "https://brandvitals.io/ar/blog-creative-testing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-creative-testing.html",
+    "en https://brandvitals.io/blog-creative-testing.html",
+    "x-default https://brandvitals.io/blog-creative-testing.html"
+   ],
+   "h1": [
+    "اختبار الإبداع يتفوّق على الميزانيات الأكبر"
+   ],
+   "h2": [
+    "لماذا لا تُصلح الميزانية الأكبر الأداء غالبًا",
+    "اختبر الأفكار لا ألوان الأزرار",
+    "إيقاع اختبار أسبوعي",
+    "كيف تقرأ النتائج",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "اختبار الإبداع يتفوّق على الميزانيات الأكبر | Brand Vitals",
+   "words": 419
+  },
+  "/ar/blog-ecommerce-kpi-stack.html": {
+   "title": "مؤشرات أسبوعية لكل مدير متجر إلكتروني | Brand Vitals",
+   "description": "العائد على الإنفاق لا يكفي. الأرقام الخمسة التي تتنبأ فعلًا بما إذا كان نمو متجرك سيستمر.",
+   "canonical": "https://brandvitals.io/ar/blog-ecommerce-kpi-stack.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ecommerce-kpi-stack.html",
+    "en https://brandvitals.io/blog-ecommerce-kpi-stack.html",
+    "x-default https://brandvitals.io/blog-ecommerce-kpi-stack.html"
+   ],
+   "h1": [
+    "مؤشرات الأداء التي يجب أن يراقبها كل مدير متجر إلكتروني أسبوعيًا"
+   ],
+   "h2": [
+    "الأرقام الخمسة",
+    "لماذا لا يوجد عائد المنصة في القائمة",
+    "واقع السوق المحلي",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "مؤشرات الأداء التي يجب أن يراقبها كل مدير متجر إلكتروني أسبوعيًا | Brand Vitals",
+   "words": 313
+  },
+  "/ar/blog-egypt-pricing.html": {
+   "title": "التسويق في مصر والأسعار مش ثابتة | Brand Vitals",
+   "description": "لما التكاليف والأسعار بتتغير كل كام شهر، أهداف الربع اللي فات بتبطّل تبقى منطقية. إزاي تحافظ على كفاءة الإعلانات والعميل يفضل يشتري.",
+   "canonical": "https://brandvitals.io/ar/blog-egypt-pricing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-egypt-pricing.html",
+    "en https://brandvitals.io/blog-egypt-pricing.html",
+    "x-default https://brandvitals.io/blog-egypt-pricing.html"
+   ],
+   "h1": [
+    "التسويق في مصر والأسعار مش ثابتة"
+   ],
+   "h2": [
+    "قيس هامش الربح، مش الـ ROAS بس",
+    "بيع القيمة، مش الخصم",
+    "خلّي الحملات المستمرة شغالة",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "التسويق في مصر والأسعار مش ثابتة | Brand Vitals",
+   "words": 298
+  },
+  "/ar/blog-egypt-whatsapp.html": {
+   "title": "واتساب هو قمع المبيعات بتاعك في مصر | Brand Vitals",
+   "description": "أغلب العملاء في مصر عايزين يسألوا قبل ما يشتروا. إزاي تحوّل واتساب من صندوق رسايل عشوائي لقناة متقاسة.",
+   "canonical": "https://brandvitals.io/ar/blog-egypt-whatsapp.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-egypt-whatsapp.html",
+    "en https://brandvitals.io/blog-egypt-whatsapp.html",
+    "x-default https://brandvitals.io/blog-egypt-whatsapp.html"
+   ],
+   "h1": [
+    "واتساب هو قمع المبيعات بتاعك في مصر"
+   ],
+   "h2": [
+    "رد في دقايق، مش ساعات",
+    "تابع كل محادثة",
+    "اكتب ردود بتقفل البيعة",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "واتساب هو قمع المبيعات بتاعك في مصر | Brand Vitals",
+   "words": 288
+  },
+  "/ar/blog-focus-your-catalog.html": {
+   "title": "الأقل أفضل: ركّز كتالوجك لترفع العائد | Brand Vitals",
+   "description": "لماذا قد يضاعف تركيز الإعلانات على عدد قليل من المنتجات الرئيسية عائدك على الإنفاق، وكيف تختارها.",
+   "canonical": "https://brandvitals.io/ar/blog-focus-your-catalog.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-focus-your-catalog.html",
+    "en https://brandvitals.io/blog-focus-your-catalog.html",
+    "x-default https://brandvitals.io/blog-focus-your-catalog.html"
+   ],
+   "h1": [
+    "الأقل أفضل: ركّز كتالوجك لترفع العائد"
+   ],
+   "h2": [
+    "ما هو المنتج الرئيسي",
+    "كيف تختار من ثلاثة إلى خمسة",
+    "ثم ابنِ الحساب حولها",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "الأقل أفضل: ركّز كتالوجك لترفع العائد | Brand Vitals",
+   "words": 314
+  },
+  "/ar/blog-ksa-seasons.html": {
+   "title": "تقويم السعودية هو خطة إعلاناتك | Brand Vitals",
+   "description": "رمضان ويوم التأسيس واليوم الوطني والجمعة البيضاء ويوم الراتب: كيف ترتّب ميزانيتك والكرييتيف حول اللحظات اللي العميل السعودي يشتري فيها فعلًا.",
+   "canonical": "https://brandvitals.io/ar/blog-ksa-seasons.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ksa-seasons.html",
+    "en https://brandvitals.io/blog-ksa-seasons.html",
+    "x-default https://brandvitals.io/blog-ksa-seasons.html"
+   ],
+   "h1": [
+    "تقويم السعودية هو خطة إعلاناتك"
+   ],
+   "h2": [
+    "المواسم اللي تحرّك الطلب",
+    "خطّط على ثلاث موجات",
+    "كرييتيف يحسّه العميل قريب منه",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "تقويم السعودية هو خطة إعلاناتك | Brand Vitals",
+   "words": 329
+  },
+  "/ar/blog-ksa-snapchat.html": {
+   "title": "ليش الحملات في السعودية لازم تجرّب سناب شات أول | Brand Vitals",
+   "description": "سناب شات يوصل لنسبة كبيرة من الشباب السعودي كل يوم. هنا كيف تخطط له وتكتب البريف وتقيسه جنب Meta وTikTok وGoogle.",
+   "canonical": "https://brandvitals.io/ar/blog-ksa-snapchat.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ksa-snapchat.html",
+    "en https://brandvitals.io/blog-ksa-snapchat.html",
+    "x-default https://brandvitals.io/blog-ksa-snapchat.html"
+   ],
+   "h1": [
+    "ليش الحملات في السعودية لازم تجرّب سناب شات أول"
+   ],
+   "h2": [
+    "ابدأ باختبار عادل",
+    "اكتب البريف على مقاس المنصة",
+    "قِس الشي المهم",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "ليش الحملات في السعودية لازم تجرّب سناب شات أول | Brand Vitals",
+   "words": 305
+  },
+  "/ar/blog-prospecting-vs-retargeting.html": {
+   "title": "الاستكشاف أم إعادة الاستهداف: من أين يأتي النمو؟ | Brand Vitals",
+   "description": "متى تنفق على إيجاد عملاء جدد ومتى تنفق على تحويل من لديك بالفعل، ولماذا قد يضلّلك عائد إعادة الاستهداف.",
+   "canonical": "https://brandvitals.io/ar/blog-prospecting-vs-retargeting.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-prospecting-vs-retargeting.html",
+    "en https://brandvitals.io/blog-prospecting-vs-retargeting.html",
+    "x-default https://brandvitals.io/blog-prospecting-vs-retargeting.html"
+   ],
+   "h1": [
+    "الاستكشاف مقابل إعادة الاستهداف: من أين يأتي النمو فعلًا"
+   ],
+   "h2": [
+    "مهمتان وميزانيتان",
+    "توزيع عملي",
+    "قِس النظام كاملًا",
+    "تريد هذا التفكير على حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "الاستكشاف مقابل إعادة الاستهداف: من أين يأتي النمو فعلًا | Brand Vitals",
+   "words": 350
+  },
+  "/ar/blog.html": {
+   "title": "المدونة، رؤى نموّ لمصر والمنطقة | Brand Vitals",
+   "description": "مقالات براند فايتلز: ما نتعلمه من إدارة النمو في مصر والمنطقة، مكتوبًا بشكل عملي.",
+   "canonical": "https://brandvitals.io/ar/blog.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog.html",
+    "en https://brandvitals.io/blog.html",
+    "x-default https://brandvitals.io/blog.html"
+   ],
+   "h1": [
+    "تفكيرٌ أعمق حول النمو."
+   ],
+   "h2": [
+    "المقالات",
+    "تريد هذا التفكير في حسابك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Blog, Brand Vitals",
+   "words": 333
+  },
+  "/ar/branding.html": {
+   "title": "شركة براندنج في القاهرة | استراتيجية وهوية العلامة | Brand Vitals",
+   "description": "استراتيجية العلامة والتموضع والهوية البصرية وإبداع الحملات للأعمال الطموحة في مصر والمنطقة، مبنية لتُتذكّر وتحقق نتائج.",
+   "canonical": "https://brandvitals.io/ar/branding.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/branding.html",
+    "en https://brandvitals.io/branding.html",
+    "x-default https://brandvitals.io/branding.html"
+   ],
+   "h1": [
+    "علامة يتذكّرها الناس، ويختارونها."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "How long does a brand identity take?",
+    "Can you design an Arabic logo?",
+    "Do you only do rebrands?",
+    "Will we own the files?"
+   ],
+   "og": "شركة براندنج في القاهرة | استراتيجية وهوية العلامة | Brand Vitals",
+   "words": 367
+  },
+  "/ar/careers.html": {
+   "title": "الوظائف، انضم إلى الفريق | Brand Vitals",
+   "description": "انضم لبراند فايتلز في القاهرة: وظائف لاستراتيجيين ومشتري إعلانات ومبدعين ومحللين يعملون مع علامات في مصر والسعودية.",
+   "canonical": "https://brandvitals.io/ar/careers.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/careers.html",
+    "en https://brandvitals.io/careers.html",
+    "x-default https://brandvitals.io/careers.html"
+   ],
+   "h1": [
+    "انضم للفريق اللي ورا النمو."
+   ],
+   "h2": [
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Careers, Brand Vitals",
+   "words": 187
+  },
+  "/ar/case-architectural-products.html": {
+   "title": "دراسة حالة: منتجات معمارية فاخرة | Brand Vitals",
+   "description": "علامة منتجات معمارية فاخرة نمت عبر السوشيال المدفوع: على مدار عام كامل أعادت الإعلانات 34.87 ضعف تكلفتها.",
+   "canonical": "https://brandvitals.io/ar/case-architectural-products.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-architectural-products.html",
+    "en https://brandvitals.io/case-architectural-products.html",
+    "x-default https://brandvitals.io/case-architectural-products.html"
+   ],
+   "h1": [
+    "منتجات عالية القيمة، تُباع عبر الإعلانات المدفوعة."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: منتجات معمارية فاخرة | Brand Vitals",
+   "words": 261
+  },
+  "/ar/case-healthcare-group.html": {
+   "title": "دراسة حالة: مجموعة رعاية صحية | Brand Vitals",
+   "description": "45% من الاستفسارات تحوّلت إلى حجوزات. وصلت المجموعة إلى معدل 45% من الاستفسار إلى الحجز، بمتوسط عائد 25.7× على الإنفاق الإعلاني في مصر والخليج.",
+   "canonical": "https://brandvitals.io/ar/case-healthcare-group.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-healthcare-group.html",
+    "en https://brandvitals.io/case-healthcare-group.html",
+    "x-default https://brandvitals.io/case-healthcare-group.html"
+   ],
+   "h1": [
+    "45% من الاستفسارات تحوّلت إلى حجوزات."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: مجموعة رعاية صحية | Brand Vitals",
+   "words": 262
+  },
+  "/ar/case-heritage-fashion.html": {
+   "title": "دراسة حالة: تاجر أزياء تراثي | Brand Vitals",
+   "description": "علامة أزياء عريقة نمت أونلاين بجانب فروعها: حققت الإعلانات المدفوعة عائدًا 13.4× على الإنفاق.",
+   "canonical": "https://brandvitals.io/ar/case-heritage-fashion.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-heritage-fashion.html",
+    "en https://brandvitals.io/case-heritage-fashion.html",
+    "x-default https://brandvitals.io/case-heritage-fashion.html"
+   ],
+   "h1": [
+    "تنمية الإيراد الرقمي بجانب حضور تجاري راسخ."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: تاجر أزياء تراثي | Brand Vitals",
+   "words": 254
+  },
+  "/ar/case-luxury-beauty.html": {
+   "title": "دراسة حالة: تجارة إلكترونية للجمال الفاخر | Brand Vitals",
+   "description": "تجارة تجميل فاخرة: ارتفع العائد على الإنفاق من 6.9× إلى 18.9× ونمت التحويلات 314% بعد إصلاح التتبع والهيكل والإبداع كنظام واحد.",
+   "canonical": "https://brandvitals.io/ar/case-luxury-beauty.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-luxury-beauty.html",
+    "en https://brandvitals.io/case-luxury-beauty.html",
+    "x-default https://brandvitals.io/case-luxury-beauty.html"
+   ],
+   "h1": [
+    "من 6.9× إلى 18.9× عائد، مع زيادة 314% في التحويلات."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: تجارة إلكترونية للجمال الفاخر | Brand Vitals",
+   "words": 287
+  },
+  "/ar/case-luxury-real-estate.html": {
+   "title": "دراسة حالة: عقارات فاخرة | Brand Vitals",
+   "description": "مشروع عقاري فاخر انطلق حول فكرة التملّك العاطفي بعالم علامة واحد: تموضع، وإبداع حملة، وفيلم، وتجربة رقمية.",
+   "canonical": "https://brandvitals.io/ar/case-luxury-real-estate.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-luxury-real-estate.html",
+    "en https://brandvitals.io/case-luxury-real-estate.html",
+    "x-default https://brandvitals.io/case-luxury-real-estate.html"
+   ],
+   "h1": [
+    "مشروع عقاري فاخر، متموضع حول التملّك العاطفي."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: عقارات فاخرة | Brand Vitals",
+   "words": 248
+  },
+  "/ar/case-national-hypermarket.html": {
+   "title": "دراسة حالة: هايبرماركت وطني | Brand Vitals",
+   "description": "التطبيق والويب وزيارات الفروع، تنمو كنظام واحد. حققت الحملات متعددة القنوات عائدًا 20× على الإنفاق عبر أكثر من 10 ملايين جنيه إنفاقًا مُدارًا.",
+   "canonical": "https://brandvitals.io/ar/case-national-hypermarket.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-national-hypermarket.html",
+    "en https://brandvitals.io/case-national-hypermarket.html",
+    "x-default https://brandvitals.io/case-national-hypermarket.html"
+   ],
+   "h1": [
+    "التطبيق والويب وزيارات الفروع، تنمو كنظام واحد."
+   ],
+   "h2": [
+    "التحدي",
+    "ما قمنا به",
+    "النتيجة",
+    "أعمال أخرى",
+    "تريد نتائج مثل هذه؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "دراسة حالة: هايبرماركت وطني | Brand Vitals",
+   "words": 261
+  },
+  "/ar/contact.html": {
+   "title": "تواصل مع براند فايتلز | احصل على تدقيق نموّ مجاني",
+   "description": "احصل على تدقيق نموّ مجاني من براند فايتلز. أخبرنا أين أنت وإلى أين تريد الوصول، ونرد بخطة مناسبة خلال 24 ساعة.",
+   "canonical": "https://brandvitals.io/ar/contact.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/contact.html",
+    "en https://brandvitals.io/contact.html",
+    "x-default https://brandvitals.io/contact.html"
+   ],
+   "h1": [
+    "لنبنِ شيئًا يستحق الحديث عنه."
+   ],
+   "h2": [
+    "تفضّل التحدث الآن؟",
+    "في السعودية؟ نعمل على توقيتك.",
+    "تجدنا في القاهرة.",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ContactPage",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Contact Brand Vitals",
+   "words": 253
+  },
+  "/ar/crew.html": {
+   "title": "Vitals Crew | فريلانسرز وفرق إبداعية معتمدة",
+   "description": "Vitals Crew من براند ڤايتلز: مصممين وفناني موشن وفرق فيديو وكتّاب ومتخصصي إعلانات معتمدين. وكل تسليم بيتراجع من فريقنا.",
+   "canonical": "https://brandvitals.io/ar/crew.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/crew.html",
+    "en https://brandvitals.io/crew.html",
+    "x-default https://brandvitals.io/crew.html"
+   ],
+   "h1": [
+    "فريلانسرز اتراجعوا 4 مرات قبل ما تقابلهم."
+   ],
+   "h2": [
+    "المنصات المفتوحة بتدخّل أي حد. إحنا لأ.",
+    "تلات كراسي على ترابيزة واحدة.",
+    "[عنوان الأعضاء]",
+    "طريقين لنفس الشغلانة.",
+    "قواعد مالية بسيطة للطرفين.",
+    "قولنا محتاج إيه، وإحنا نجيب الفريق المناسب.",
+    "أول الأسئلة.",
+    "عيلة واحدة. ومعيار جودة واحد.",
+    "Vitals Crew",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Organization"
+   ],
+   "faq": [],
+   "og": "Vitals Crew | Vetted Talent, 100% Reviewed",
+   "words": 629
+  },
+  "/ar/ecommerce-marketing.html": {
+   "title": "وكالة تسويق للتجارة الإلكترونية في مصر والخليج | Brand Vitals",
+   "description": "نموّ مربح للمتاجر الإلكترونية في مصر والخليج: إعلانات مدفوعة واختبار إبداعي وتحسين تحويل وتتبع، تعمل كنظام واحد.",
+   "canonical": "https://brandvitals.io/ar/ecommerce-marketing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/ecommerce-marketing.html",
+    "en https://brandvitals.io/ecommerce-marketing.html",
+    "x-default https://brandvitals.io/ecommerce-marketing.html"
+   ],
+   "h1": [
+    "متاجر إلكترونية تنمو بربحية."
+   ],
+   "h2": [
+    "ما الذي يعيق عادةً.",
+    "كيف ننمّي أعمالًا مثل عملك.",
+    "نتائج في هذا القطاع",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Which platforms work best for e-commerce in Egypt?",
+    "Do you work with Shopify stores?",
+    "How do you handle cash-on-delivery tracking?"
+   ],
+   "og": "وكالة تسويق للتجارة الإلكترونية في مصر والخليج | Brand Vitals",
+   "words": 321
+  },
+  "/ar/frames.html": {
+   "title": "Vitals Frames | ستوديو إنتاج للبراندز في القاهرة",
+   "description": "Vitals Frames ستوديو إنتاج في القاهرة: إعلانات ومحتوى UGC وأفلام للعلامات وتصوير منتجات وموشن ومحتوى شهري مصنوع ليحقق نتائج.",
+   "canonical": "https://brandvitals.io/ar/frames.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/frames.html",
+    "en https://brandvitals.io/frames.html",
+    "x-default https://brandvitals.io/frames.html"
+   ],
+   "h1": [
+    "محتوى معمولعشان يشتغل."
+   ],
+   "h2": [
+    "سبع خدمات، واختبار واحد: بيجيب نتيجة؟",
+    "[عنوان الأعمال المختارة]",
+    "معمول للفرق اللي محتاجة إنتاج، مش مصاريف ثابتة.",
+    "من البريف لكل المقاسات، على تايملاين واحد.",
+    "إنتاج بإيقاع شهري.",
+    "كرييتيف مبني على أرقام الأداء.",
+    "قبل ما تحجز.",
+    "قولنا محتاج تعمل إيه.",
+    "Vitals Frames",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "How fast is turnaround?",
+    "Who owns the usage rights?",
+    "How many revisions are included?",
+    "Where do you shoot, and who is on the crew?",
+    "Do we get the raw files?"
+   ],
+   "og": "Vitals Frames | Content Made to Perform",
+   "words": 785
+  },
+  "/ar/go.html": {
+   "title": "Vitals GO | ابعت. وافِق. اقبض.",
+   "description": "Vitals GO للوكالات: ابعت الشغل بلينك واحد، وخد موافقة العميل على أي قناة، واحتفظ بسجل كل قرار، وحاسب على الشغل الإضافي.",
+   "canonical": "https://brandvitals.io/ar/go.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/go.html",
+    "en https://brandvitals.io/go.html",
+    "x-default https://brandvitals.io/go.html"
+   ],
+   "h1": [
+    "ابعت. وافِق. اقبض."
+   ],
+   "h2": [
+    "ابعته. يقول GO. تقبض.",
+    "شاشات حقيقية. مفيش حاجة متركبة.",
+    "سعر واحد للوكالة حسب عدد العملاء النشطين. التيم والعملاء مجانًا.",
+    "شغل عملائك يبقى ملكك.",
+    "[رأي وكالة]",
+    "الموافقة الجاية ممكن تبقى خضرا النهارده.",
+    "أول أسئلة الوكالات.",
+    "معمول من وكالة، للوكالات.",
+    "Vitals GO",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "Do my clients need an account or an app?",
+    "Do we have to use WhatsApp?",
+    "Do we need to leave our current tools?",
+    "How does pricing work?"
+   ],
+   "og": "Vitals GO | Send. Approve. Get paid.",
+   "words": 675
+  },
+  "/ar/google-ads.html": {
+   "title": "إدارة إعلانات جوجل في القاهرة، مصر | Brand Vitals",
+   "description": "إدارة إعلانات جوجل من القاهرة: بحث وPerformance Max وتسوّق ويوتيوب مبنية على نية الشراء والربح، بالعربي والإنجليزي لمصر والخليج.",
+   "canonical": "https://brandvitals.io/ar/google-ads.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/google-ads.html",
+    "en https://brandvitals.io/google-ads.html",
+    "x-default https://brandvitals.io/google-ads.html"
+   ],
+   "h1": [
+    "كن موجودًا حين يبحثون."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Do you manage Google Ads in Arabic?",
+    "Is Performance Max a good idea?",
+    "Can you track phone calls and WhatsApp leads?",
+    "What is your minimum engagement?"
+   ],
+   "og": "إدارة إعلانات جوجل في القاهرة، مصر | Brand Vitals",
+   "words": 430
+  },
+  "/ar/healthcare-marketing.html": {
+   "title": "وكالة تسويق للعيادات والرعاية الصحية في مصر والخليج | Brand Vitals",
+   "description": "اكتساب مرضى للعيادات والمستشفيات والمجموعات الطبية: حملات ملتزمة وتوليد عملاء مرتبط بنظام إدارة العملاء وحجوزات مقاسة من البداية للنهاية.",
+   "canonical": "https://brandvitals.io/ar/healthcare-marketing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/healthcare-marketing.html",
+    "en https://brandvitals.io/healthcare-marketing.html",
+    "x-default https://brandvitals.io/healthcare-marketing.html"
+   ],
+   "h1": [
+    "حجوزات أكثر، لا استفسارات أكثر فقط."
+   ],
+   "h2": [
+    "ما الذي يعيق عادةً.",
+    "كيف ننمّي أعمالًا مثل عملك.",
+    "نتائج في هذا القطاع",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Can healthcare businesses advertise on Meta?",
+    "Do you work across Egypt and the GCC?",
+    "How do you measure bookings?"
+   ],
+   "og": "وكالة تسويق للعيادات والرعاية الصحية في مصر والخليج | Brand Vitals",
+   "words": 270
+  },
+  "/ar/index.html": {
+   "title": "براند فايتلز | وكالة تسويق في القاهرة، مصر والمنطقة",
+   "description": "براند فايتلز وكالة تسويق في القاهرة توحّد الاستراتيجية والإبداع والويب وتسويق الأداء في نظام نموّ واحد قابل للقياس في مصر والسعودية.",
+   "canonical": "https://brandvitals.io/ar/",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/",
+    "en https://brandvitals.io/",
+    "x-default https://brandvitals.io/"
+   ],
+   "h1": [
+    "نبني علاماتٍ تنمو."
+   ],
+   "h2": [
+    "كل ما تحتاجه علامتك لتنمو.",
+    "لا نبدأ بالقنوات. نبدأ بالعمل نفسه.",
+    "دليلٌ لا وعود.",
+    "عملٌ حقيقي. نتائج قابلة للقياس.",
+    "مبنيٌّ حول النتيجة.",
+    "مبنيٌّ للأعمال الطموحة.",
+    "سوقان رئيسيان. وفريق واحد يعرفهما جيدًا.",
+    "منظومة واحدة، نظام نمو واحد.",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "Brand",
+    "ContactPoint",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "PostalAddress",
+    "Question",
+    "WebSite"
+   ],
+   "faq": [
+    "What does Brand Vitals do?",
+    "Does Brand Vitals manage Meta and Google Ads?",
+    "Do you work with e-commerce businesses?",
+    "Do you work with businesses in Egypt and the GCC?",
+    "Do you offer fixed marketing packages?",
+    "Can you work with our existing marketing team?",
+    "How do we start?"
+   ],
+   "og": "Brand Vitals | We Build Brands That Grow",
+   "words": 1268
+  },
+  "/ar/jobs.html": {
+   "title": "Vitals Jobs | وظايف كرييتيف وماركتينج بفرز حقيقي",
+   "description": "Vitals Jobs: وظايف كرييتيف وماركتينج من براند ڤايتلز. بروفايل واحد وتقديم في خطوة، وكل طلب بيتفرز قبل ما الشركة تشوفه.",
+   "canonical": "https://brandvitals.io/ar/jobs.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/jobs.html",
+    "en https://brandvitals.io/jobs.html",
+    "x-default https://brandvitals.io/jobs.html"
+   ],
+   "h1": [
+    "وظايف الكرييتيف والماركتينج، بفرز ناس بتشتغل في نفس المجال."
+   ],
+   "h2": [
+    "موقع وظايف، وفي النص خطوة زيادة.",
+    "بيقراه ناس فاهمة الشغل.",
+    "فرز أقل. ومقابلات أفضل.",
+    "كرييتيف وماركتينج. ومفيش غيرهم.",
+    "نفس إعلان الوظيفة. بس صندوق وارد مختلف.",
+    "قولنا الوظيفة، وإحنا نبعتلك الناس الصح.",
+    "أول الأسئلة.",
+    "عيلة واحدة. ومعيار جودة واحد.",
+    "Vitals Jobs",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Organization"
+   ],
+   "faq": [],
+   "og": "Vitals Jobs | Creative and Marketing Jobs",
+   "words": 602
+  },
+  "/ar/performance-marketing.html": {
+   "title": "وكالة تسويق أداء في مصر والمنطقة | Brand Vitals",
+   "description": "إعلانات سوشيال مدفوعة تُقاس بالإيراد لا بالوصول: حملات ميتا وتيك توك وسناب شات مع اختبار إبداعي وتتبع دقيق وتحسين أسبوعي.",
+   "canonical": "https://brandvitals.io/ar/performance-marketing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/performance-marketing.html",
+    "en https://brandvitals.io/performance-marketing.html",
+    "x-default https://brandvitals.io/performance-marketing.html"
+   ],
+   "h1": [
+    "إعلانات مدفوعة تُقاس بالإيراد."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "What budget do I need for paid social?",
+    "Who owns the ad accounts?",
+    "Do you create the ads too?",
+    "How fast will we see results?"
+   ],
+   "og": "وكالة تسويق أداء في مصر والمنطقة | Brand Vitals",
+   "words": 436
+  },
+  "/ar/privacy.html": {
+   "title": "سياسة الخصوصية، Brand Vitals",
+   "description": "كيف تجمع براند فايتلز بياناتك وتستخدمها وتحميها، وفق قانون حماية البيانات الشخصية المصري ونظام حماية البيانات الشخصية السعودي.",
+   "canonical": "https://brandvitals.io/ar/privacy.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/privacy.html",
+    "en https://brandvitals.io/privacy.html",
+    "x-default https://brandvitals.io/privacy.html"
+   ],
+   "h1": [
+    "سياسة الخصوصية"
+   ],
+   "h2": [
+    "1. من نحن",
+    "2. ما الذي نجمعه",
+    "3. كيف نستخدمها",
+    "4. من يرى ماذا",
+    "5. الأسس القانونية والقوانين الإقليمية",
+    "6. ملفات تعريف الارتباط والتتبع",
+    "7. التخزين ونقل البيانات",
+    "8. مدة الاحتفاظ",
+    "9. حقوقك",
+    "10. التعديلات والتواصل",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [],
+   "faq": [],
+   "og": "",
+   "words": 428
+  },
+  "/ar/products.html": {
+   "title": "الأسعار | وكالة براند فايتلز للتسويق",
+   "description": "لا باقات ثابتة: كل تعاقد مع براند فايتلز يُحدَّد حسب أهدافك وخدماتك وسوقك، ويُسعَّر في عرض مخصص. ابدأ بتدقيق مجاني.",
+   "canonical": "https://brandvitals.io/ar/products.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/products.html",
+    "en https://brandvitals.io/products.html",
+    "x-default https://brandvitals.io/products.html"
+   ],
+   "h1": [
+    "لا باقات ثابتة. تسعيرٌ يناسبك."
+   ],
+   "h2": [
+    "ما نقدّمه",
+    "من أول مكالمة لأول تقرير.",
+    "شروط واضحة في مصر والسعودية.",
+    "كيف تُسعَّر منتجاتنا.",
+    "غير متأكد أيّها يناسبك؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "OfferCatalog",
+    "Service"
+   ],
+   "faq": [],
+   "og": "Pricing | Brand Vitals",
+   "words": 363
+  },
+  "/ar/real-estate-marketing.html": {
+   "title": "وكالة تسويق عقاري في مصر والسعودية | Brand Vitals",
+   "description": "علامة وحملات وتوليد عملاء للمطوّرين والوسطاء في مصر والسعودية، من التموضع والأفلام إلى عملاء مؤهلين يستطيع فريق المبيعات إغلاقهم.",
+   "canonical": "https://brandvitals.io/ar/real-estate-marketing.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/real-estate-marketing.html",
+    "en https://brandvitals.io/real-estate-marketing.html",
+    "x-default https://brandvitals.io/real-estate-marketing.html"
+   ],
+   "h1": [
+    "عملاء يريد فريق مبيعاتك الاتصال بهم."
+   ],
+   "h2": [
+    "ما الذي يعيق عادةً.",
+    "كيف ننمّي أعمالًا مثل عملك.",
+    "نتائج في هذا القطاع",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Do you work with developers in Saudi Arabia?",
+    "How do you improve lead quality?",
+    "Can you produce the project film?"
+   ],
+   "og": "وكالة تسويق عقاري في مصر والسعودية | Brand Vitals",
+   "words": 288
+  },
+  "/ar/seo.html": {
+   "title": "شركة سيو في مصر | سيو عربي وإنجليزي | Brand Vitals",
+   "description": "سيو تقني ومحتوى عربي واستراتيجية بحث مبنية على طريقة البحث في مصر والخليج، مع هيكلة ثنائية اللغة وhreflang صحيح.",
+   "canonical": "https://brandvitals.io/ar/seo.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/seo.html",
+    "en https://brandvitals.io/seo.html",
+    "x-default https://brandvitals.io/seo.html"
+   ],
+   "h1": [
+    "تصدّر باللغة التي يبحث بها عملاؤك."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "How long does SEO take?",
+    "Should I target Egyptian dialect or Modern Standard Arabic?",
+    "Do you build backlinks?",
+    "What is AI search optimization?"
+   ],
+   "og": "شركة سيو في مصر | سيو عربي وإنجليزي | Brand Vitals",
+   "words": 414
+  },
+  "/ar/solutions.html": {
+   "title": "الخدمات | الاستراتيجية والإبداع والويب والنموّ | Brand Vitals",
+   "description": "خدمات براند فايتلز: الاستراتيجية، والعلامة والإبداع، والويب والتجربة، والتسويق والنمو، تعمل كنظام واحد في مصر والمنطقة.",
+   "canonical": "https://brandvitals.io/ar/solutions.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/solutions.html",
+    "en https://brandvitals.io/solutions.html",
+    "x-default https://brandvitals.io/solutions.html"
+   ],
+   "h1": [
+    "كل ما تحتاجه علامتك لتنمو."
+   ],
+   "h2": [
+    "خدماتنا",
+    "محادثة واحدة. خطة واحدة. فريق واحد مسؤول.",
+    "لست متأكداً من أين تبدأ؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ItemList",
+    "ListItem",
+    "Service"
+   ],
+   "faq": [],
+   "og": "Services | Brand Vitals",
+   "words": 223
+  },
+  "/ar/stage.html": {
+   "title": "Vitals Stage | تنظيم وإدارة وإنتاج الفعاليات",
+   "description": "Vitals Stage: تنظيم وإنتاج الفعاليات والمؤتمرات والإطلاقات والمعارض، مع محتوى يُلتقط ويُضخّم بعد الحدث.",
+   "canonical": "https://brandvitals.io/ar/stage.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/stage.html",
+    "en https://brandvitals.io/stage.html",
+    "x-default https://brandvitals.io/stage.html"
+   ],
+   "h1": [
+    "فعاليتك، من التخطيطلحد آخر تفصيلة."
+   ],
+   "h2": [
+    "تنظيم وإدارة وإنتاج، تحت فريق واحد.",
+    "معمولين لإيفنتات البيزنس.",
+    "[عنوان الإيفنتات]",
+    "ست مراحل، ومسؤول واحد.",
+    "قبل ما تبعت البريف.",
+    "احكيلنا عن الإيفنت.",
+    "Vitals Stage",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "What budget ranges do you work with?",
+    "How much lead time do you need?",
+    "Can you manage only part of an event?",
+    "Who builds and runs the technical production?",
+    "Which cities do you cover?"
+   ],
+   "og": "Vitals Stage | Events, Organized and Produced End to End",
+   "words": 647
+  },
+  "/ar/terms.html": {
+   "title": "الشروط والأحكام | براند فايتلز",
+   "description": "الشروط والأحكام لبراند فايتلز وVitals Frames وWeb وStage وGO وCrew وJobs: النطاق والرسوم والمدفوعات والحقوق والمسؤوليات.",
+   "canonical": "https://brandvitals.io/ar/terms.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/terms.html",
+    "en https://brandvitals.io/terms.html",
+    "x-default https://brandvitals.io/terms.html"
+   ],
+   "h1": [
+    "الشروط والأحكام"
+   ],
+   "h2": [
+    "1. عن هذه الشروط",
+    "2. خدمات الوكالة والاستوديو",
+    "3. Vitals GO",
+    "4. Vitals Crew",
+    "5. Vitals Jobs",
+    "6. المدفوعات والضرائب",
+    "7. النتائج",
+    "8. محتوى الموقع",
+    "9. المسؤولية",
+    "10. القانون الحاكم والتعديلات",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [],
+   "faq": [],
+   "og": "",
+   "words": 434
+  },
+  "/ar/vitals-score.html": {
+   "title": "فحص Vitals المجاني | فحص صحة موقعك وتسويقك | Brand Vitals",
+   "description": "احصل على درجة مجانية من 100 لسرعة موقعك والسيو وجاهزية العربي وتتبع التسويق، مع قائمة مرتّبة بما يجب إصلاحه أولًا.",
+   "canonical": "https://brandvitals.io/ar/vitals-score.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/vitals-score.html",
+    "en https://brandvitals.io/vitals-score.html",
+    "x-default https://brandvitals.io/vitals-score.html"
+   ],
+   "h1": [
+    "ما هي مؤشرات علامتك الحيوية؟"
+   ],
+   "h2": [
+    "",
+    "خمس علامات حيوية لنظام نمو صحي.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "WebApplication"
+   ],
+   "faq": [],
+   "og": "فحص Vitals المجاني | فحص صحة موقعك وتسويقك | Brand Vitals",
+   "words": 293
+  },
+  "/ar/web-cro.html": {
+   "title": "تصميم مواقع وتحسين معدل التحويل في مصر | Brand Vitals",
+   "description": "مواقع وصفحات هبوط مبنية للتحويل بالعربي والإنجليزي، مع تتبع من اليوم الأول واختبارات تحويل مستمرة لتكسب أكثر من زياراتك.",
+   "canonical": "https://brandvitals.io/ar/web-cro.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/web-cro.html",
+    "en https://brandvitals.io/web-cro.html",
+    "x-default https://brandvitals.io/web-cro.html"
+   ],
+   "h1": [
+    "عملاء أكثر من الزيارات نفسها."
+   ],
+   "h2": [
+    "كل ما يلزم، في فريق واحد.",
+    "أربع مراحل، ومحطات واضحة.",
+    "هل يبدو هذا مألوفًا؟",
+    "أعمال ذات صلة",
+    "أسئلة، بإجابات.",
+    "عندك تحدّي نموٍّ يستحقّ الحل؟",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Do you build on WordPress, Shopify or custom code?",
+    "What is CRO?",
+    "How much traffic do I need for A/B testing?",
+    "Can you improve our existing site?"
+   ],
+   "og": "تصميم مواقع وتحسين معدل التحويل في مصر | Brand Vitals",
+   "words": 418
+  },
+  "/ar/web.html": {
+   "title": "Vitals Web | موقعك جاهز في أسابيع",
+   "description": "Vitals Web: مواقع بالعربي والإنجليزي تنطلق خلال أسابيع، بباقات ومواعيد ثابتة، مع السيو والتتبع جاهزين.",
+   "canonical": "https://brandvitals.io/ar/web.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/web.html",
+    "en https://brandvitals.io/web.html",
+    "x-default https://brandvitals.io/web.html"
+   ],
+   "h1": [
+    "موقعك جاهزفي أسابيع، مش شهور."
+   ],
+   "h2": [
+    "مواقع صممناها ونفذناها.",
+    "brandvitals.io",
+    "تلات باكدجات. نطاق ثابت، ومعاد ثابت.",
+    "الأساسيات، مش إضافات.",
+    "أسبوع بأسبوع، وكل حاجة واضحة.",
+    "أسئلة بتيجي قبل كل إطلاق.",
+    "اختار باكدج، وإحنا نبعتلك الخطة.",
+    "Vitals Web",
+    "البراندات",
+    "تواصل"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "Do you handle hosting?",
+    "What about the domain?",
+    "Who owns the site?",
+    "Can we edit it after launch?",
+    "What if the timeline slips?"
+   ],
+   "og": "Vitals Web | Websites That Launch in Weeks, Not Months",
+   "words": 711
+  },
+  "/ar/work.html": {
+   "title": "أعمالنا، دراسات حالة ونتائج | Brand Vitals",
+   "description": "أعمال براند فايتلز في مصر والمنطقة: نتائج حقيقية في التجارة الإلكترونية والرعاية الصحية والتجزئة والعقارات، مقاسة بالأرقام التي تهم.",
+   "canonical": "https://brandvitals.io/ar/work.html",
+   "lang": "ar",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/work.html",
+    "en https://brandvitals.io/work.html",
+    "x-default https://brandvitals.io/work.html"
+   ],
+   "h1": [
+    "إثباتٌ، لا وعود."
+   ],
+   "h2": [
+    "دراسات الحالة",
+    "علامتك قد تكون التالية.",
+    "تصفّح",
+    "الخدمات",
+    "القطاعات والأدوات",
+    "الكيانات"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Our Work, Brand Vitals",
+   "words": 254
+  },
+  "/blog-arabic-seo-guide.html": {
+   "title": "Arabic SEO is not translated SEO: a field guide | Brand Vitals",
+   "description": "Search intent, dialect and script: what actually ranks in Egyptian and regional Arabic search, and how to structure a bilingual site so both languages can rank.",
+   "canonical": "https://brandvitals.io/blog-arabic-seo-guide.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-arabic-seo-guide.html",
+    "en https://brandvitals.io/blog-arabic-seo-guide.html",
+    "x-default https://brandvitals.io/blog-arabic-seo-guide.html"
+   ],
+   "h1": [
+    "Arabic SEO is not translated SEO: a field guide"
+   ],
+   "h2": [
+    "1. Give Arabic its own URLs",
+    "2. Research in dialect, not only in Fusha",
+    "3. Mind the script",
+    "4. Write natively",
+    "5. Prepare for AI answers",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Arabic SEO is not translated SEO: a field guide | Brand Vitals",
+   "words": 448
+  },
+  "/blog-b2b-to-b2c.html": {
+   "title": "From B2B to B2C: repositioning for consumers | Brand Vitals",
+   "description": "How a wholesale-first business can learn to speak to consumers and grow its online visibility without losing its trade customers.",
+   "canonical": "https://brandvitals.io/blog-b2b-to-b2c.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-b2b-to-b2c.html",
+    "en https://brandvitals.io/blog-b2b-to-b2c.html",
+    "x-default https://brandvitals.io/blog-b2b-to-b2c.html"
+   ],
+   "h1": [
+    "From B2B to B2C: repositioning for consumers"
+   ],
+   "h2": [
+    "Start with the consumer's problem",
+    "Protect your trade relationships",
+    "Build visibility step by step",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "From B2B to B2C: repositioning for consumers | Brand Vitals",
+   "words": 364
+  },
+  "/blog-creative-testing.html": {
+   "title": "Creative testing beats bigger budgets | Brand Vitals",
+   "description": "Why disciplined creative iteration, not raw spend, is the real lever in paid social, and a simple weekly testing system you can run.",
+   "canonical": "https://brandvitals.io/blog-creative-testing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-creative-testing.html",
+    "en https://brandvitals.io/blog-creative-testing.html",
+    "x-default https://brandvitals.io/blog-creative-testing.html"
+   ],
+   "h1": [
+    "Creative testing beats bigger budgets"
+   ],
+   "h2": [
+    "Why more budget rarely fixes performance",
+    "Test ideas, not button colors",
+    "A weekly testing rhythm",
+    "How to read the results",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Creative testing beats bigger budgets | Brand Vitals",
+   "words": 488
+  },
+  "/blog-ecommerce-kpi-stack.html": {
+   "title": "The weekly KPI stack for e-commerce CEOs | Brand Vitals",
+   "description": "ROAS is not enough. The five numbers that actually predict whether your e-commerce growth will hold.",
+   "canonical": "https://brandvitals.io/blog-ecommerce-kpi-stack.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ecommerce-kpi-stack.html",
+    "en https://brandvitals.io/blog-ecommerce-kpi-stack.html",
+    "x-default https://brandvitals.io/blog-ecommerce-kpi-stack.html"
+   ],
+   "h1": [
+    "The KPI stack every e-commerce CEO should watch weekly"
+   ],
+   "h2": [
+    "The five numbers",
+    "Why platform ROAS is not on the list",
+    "Local realities",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "The KPI stack every e-commerce CEO should watch weekly | Brand Vitals",
+   "words": 369
+  },
+  "/blog-egypt-pricing.html": {
+   "title": "Marketing in Egypt when prices keep moving | Brand Vitals",
+   "description": "When costs and prices change every few months, last quarter's targets stop making sense. How to keep media efficient and customers buying.",
+   "canonical": "https://brandvitals.io/blog-egypt-pricing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-egypt-pricing.html",
+    "en https://brandvitals.io/blog-egypt-pricing.html",
+    "x-default https://brandvitals.io/blog-egypt-pricing.html"
+   ],
+   "h1": [
+    "Marketing in Egypt when prices keep moving"
+   ],
+   "h2": [
+    "Measure margin, not only ROAS",
+    "Sell value, not discounts",
+    "Keep the always-on base",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Marketing in Egypt when prices keep moving | Brand Vitals",
+   "words": 334
+  },
+  "/blog-egypt-whatsapp.html": {
+   "title": "WhatsApp is your sales funnel in Egypt | Brand Vitals",
+   "description": "Most Egyptian customers want to ask before they buy. How to turn WhatsApp from a messy inbox into a measured channel.",
+   "canonical": "https://brandvitals.io/blog-egypt-whatsapp.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-egypt-whatsapp.html",
+    "en https://brandvitals.io/blog-egypt-whatsapp.html",
+    "x-default https://brandvitals.io/blog-egypt-whatsapp.html"
+   ],
+   "h1": [
+    "WhatsApp is your sales funnel in Egypt"
+   ],
+   "h2": [
+    "Answer in minutes, not hours",
+    "Track every conversation",
+    "Write replies that close",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "WhatsApp is your sales funnel in Egypt | Brand Vitals",
+   "words": 331
+  },
+  "/blog-focus-your-catalog.html": {
+   "title": "Less is more: focus your catalog to lift ROAS | Brand Vitals",
+   "description": "Why narrowing paid media down to a few hero products can multiply your return on ad spend, and how to choose them.",
+   "canonical": "https://brandvitals.io/blog-focus-your-catalog.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-focus-your-catalog.html",
+    "en https://brandvitals.io/blog-focus-your-catalog.html",
+    "x-default https://brandvitals.io/blog-focus-your-catalog.html"
+   ],
+   "h1": [
+    "Less is more: focus your catalog to lift ROAS"
+   ],
+   "h2": [
+    "What a hero product is",
+    "How to pick three to five",
+    "Then build the account around them",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Less is more: focus your catalog to lift ROAS | Brand Vitals",
+   "words": 381
+  },
+  "/blog-ksa-seasons.html": {
+   "title": "Saudi Arabia's calendar is your media plan | Brand Vitals",
+   "description": "Ramadan, Founding Day, National Day, White Friday and payday: how to plan spend and creative around the moments Saudi customers actually buy.",
+   "canonical": "https://brandvitals.io/blog-ksa-seasons.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ksa-seasons.html",
+    "en https://brandvitals.io/blog-ksa-seasons.html",
+    "x-default https://brandvitals.io/blog-ksa-seasons.html"
+   ],
+   "h1": [
+    "Saudi Arabia's calendar is your media plan"
+   ],
+   "h2": [
+    "The moments that move demand",
+    "Plan in three waves",
+    "Creative that feels local",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Saudi Arabia's calendar is your media plan | Brand Vitals",
+   "words": 387
+  },
+  "/blog-ksa-snapchat.html": {
+   "title": "Why Saudi campaigns should test Snapchat first | Brand Vitals",
+   "description": "Snapchat reaches a large share of young Saudis every day. Here is how to plan, brief and measure it next to Meta, TikTok and Google.",
+   "canonical": "https://brandvitals.io/blog-ksa-snapchat.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-ksa-snapchat.html",
+    "en https://brandvitals.io/blog-ksa-snapchat.html",
+    "x-default https://brandvitals.io/blog-ksa-snapchat.html"
+   ],
+   "h1": [
+    "Why Saudi campaigns should test Snapchat first"
+   ],
+   "h2": [
+    "Start with a fair test",
+    "Brief for the format",
+    "Measure what matters",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Why Saudi campaigns should test Snapchat first | Brand Vitals",
+   "words": 339
+  },
+  "/blog-prospecting-vs-retargeting.html": {
+   "title": "Prospecting vs retargeting: where growth comes from | Brand Vitals",
+   "description": "When to spend on finding new customers and when to spend on converting the ones you already have, and why retargeting ROAS can mislead you.",
+   "canonical": "https://brandvitals.io/blog-prospecting-vs-retargeting.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog-prospecting-vs-retargeting.html",
+    "en https://brandvitals.io/blog-prospecting-vs-retargeting.html",
+    "x-default https://brandvitals.io/blog-prospecting-vs-retargeting.html"
+   ],
+   "h1": [
+    "Prospecting vs retargeting: where growth really comes from"
+   ],
+   "h2": [
+    "Two jobs, two budgets",
+    "A practical split",
+    "Measure the whole system",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Prospecting vs retargeting: where growth really comes from | Brand Vitals",
+   "words": 428
+  },
+  "/blog.html": {
+   "title": "Blog, Growth Insights for Egypt & MENA | Brand Vitals",
+   "description": "Sharper thinking on growth: performance marketing, e-commerce, SEO and analytics insights for Egypt and the MENA region, from the Brand Vitals team.",
+   "canonical": "https://brandvitals.io/blog.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/blog.html",
+    "en https://brandvitals.io/blog.html",
+    "x-default https://brandvitals.io/blog.html"
+   ],
+   "h1": [
+    "Sharper thinking on growth."
+   ],
+   "h2": [
+    "Articles",
+    "Want this thinking on your account?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Blog, Brand Vitals",
+   "words": 361
+  },
+  "/branding.html": {
+   "title": "Branding Agency in Cairo | Brand Strategy & Identity | Brand Vitals",
+   "description": "Brand strategy, positioning, visual identity and campaign creative for ambitious businesses in Egypt and MENA, built to be remembered and to perform.",
+   "canonical": "https://brandvitals.io/branding.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/branding.html",
+    "en https://brandvitals.io/branding.html",
+    "x-default https://brandvitals.io/branding.html"
+   ],
+   "h1": [
+    "A brand people remember, and choose."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "How long does a brand identity take?",
+    "Can you design an Arabic logo?",
+    "Do you only do rebrands?",
+    "Will we own the files?"
+   ],
+   "og": "Branding Agency in Cairo | Brand Strategy & Identity | Brand Vitals",
+   "words": 452
+  },
+  "/careers.html": {
+   "title": "Careers, Join the Team | Brand Vitals",
+   "description": "Join Brand Vitals in Cairo: open roles for strategists, media buyers, creatives and analysts working with brands across Egypt and Saudi Arabia.",
+   "canonical": "https://brandvitals.io/careers.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/careers.html",
+    "en https://brandvitals.io/careers.html",
+    "x-default https://brandvitals.io/careers.html"
+   ],
+   "h1": [
+    "Join the team behind the growth."
+   ],
+   "h2": [
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Careers, Brand Vitals",
+   "words": 226
+  },
+  "/case-architectural-products.html": {
+   "title": "Premium architectural products case study | Brand Vitals",
+   "description": "A premium architectural products brand grown through paid social: across a full year, paid media returned 34.87× its cost.",
+   "canonical": "https://brandvitals.io/case-architectural-products.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-architectural-products.html",
+    "en https://brandvitals.io/case-architectural-products.html",
+    "x-default https://brandvitals.io/case-architectural-products.html"
+   ],
+   "h1": [
+    "High-value products, sold with paid social."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Premium architectural products case study | Brand Vitals",
+   "words": 273
+  },
+  "/case-healthcare-group.html": {
+   "title": "Healthcare group case study | Brand Vitals",
+   "description": "45% of inquiries turned into bookings. The group reached a 45% inquiry-to-booking rate with an average 25.7× return on ad spend across Egypt and the GCC.",
+   "canonical": "https://brandvitals.io/case-healthcare-group.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-healthcare-group.html",
+    "en https://brandvitals.io/case-healthcare-group.html",
+    "x-default https://brandvitals.io/case-healthcare-group.html"
+   ],
+   "h1": [
+    "45% of inquiries turned into bookings."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Healthcare group case study | Brand Vitals",
+   "words": 283
+  },
+  "/case-heritage-fashion.html": {
+   "title": "Heritage fashion retailer case study | Brand Vitals",
+   "description": "A heritage fashion retailer grew online next to its stores: paid media reached a 13.4× return on ad spend.",
+   "canonical": "https://brandvitals.io/case-heritage-fashion.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-heritage-fashion.html",
+    "en https://brandvitals.io/case-heritage-fashion.html",
+    "x-default https://brandvitals.io/case-heritage-fashion.html"
+   ],
+   "h1": [
+    "Growing online revenue next to an established retail footprint."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Heritage fashion retailer case study | Brand Vitals",
+   "words": 283
+  },
+  "/case-luxury-beauty.html": {
+   "title": "Luxury beauty e-commerce case study | Brand Vitals",
+   "description": "Luxury beauty e-commerce: ROAS rose from 6.9× to 18.9× and conversions grew 314% once tracking, structure and creative were fixed as one system.",
+   "canonical": "https://brandvitals.io/case-luxury-beauty.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-luxury-beauty.html",
+    "en https://brandvitals.io/case-luxury-beauty.html",
+    "x-default https://brandvitals.io/case-luxury-beauty.html"
+   ],
+   "h1": [
+    "From 6.9× to 18.9× ROAS, with 314% more conversions."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Luxury beauty e-commerce case study | Brand Vitals",
+   "words": 309
+  },
+  "/case-luxury-real-estate.html": {
+   "title": "Luxury real estate case study | Brand Vitals",
+   "description": "A luxury development launched around emotional ownership, with one brand world: positioning, campaign creative, film and a digital experience.",
+   "canonical": "https://brandvitals.io/case-luxury-real-estate.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-luxury-real-estate.html",
+    "en https://brandvitals.io/case-luxury-real-estate.html",
+    "x-default https://brandvitals.io/case-luxury-real-estate.html"
+   ],
+   "h1": [
+    "A luxury development, positioned around emotional ownership."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Luxury real estate case study | Brand Vitals",
+   "words": 286
+  },
+  "/case-national-hypermarket.html": {
+   "title": "National hypermarket case study | Brand Vitals",
+   "description": "App, web and branch visits, grown as one system. Omnichannel campaigns delivered a 20× return on ad spend across more than EGP 10M in managed media.",
+   "canonical": "https://brandvitals.io/case-national-hypermarket.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/case-national-hypermarket.html",
+    "en https://brandvitals.io/case-national-hypermarket.html",
+    "x-default https://brandvitals.io/case-national-hypermarket.html"
+   ],
+   "h1": [
+    "App, web and branch visits, grown as one system."
+   ],
+   "h2": [
+    "The challenge",
+    "What we did",
+    "The result",
+    "More work",
+    "Want results like these?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Article",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "National hypermarket case study | Brand Vitals",
+   "words": 281
+  },
+  "/contact.html": {
+   "title": "Contact Brand Vitals | Get a Free Growth Audit",
+   "description": "Get a free growth audit from Brand Vitals. Tell us where you are and where you want to go; we reply with a tailored plan within 24 hours.",
+   "canonical": "https://brandvitals.io/contact.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/contact.html",
+    "en https://brandvitals.io/contact.html",
+    "x-default https://brandvitals.io/contact.html"
+   ],
+   "h1": [
+    "Let's build something worth talking about."
+   ],
+   "h2": [
+    "Prefer to talk now?",
+    "In Saudi Arabia? We work on your calendar.",
+    "Find us in Cairo.",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ContactPage",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Contact Brand Vitals",
+   "words": 285
+  },
+  "/crew.html": {
+   "title": "Vitals Crew | Vetted Freelancers and Creative Teams",
+   "description": "Vitals Crew by Brand Vitals: vetted designers, motion artists, video crews, copywriters and ad specialists. Every delivery is reviewed by our team.",
+   "canonical": "https://brandvitals.io/crew.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/crew.html",
+    "en https://brandvitals.io/crew.html",
+    "x-default https://brandvitals.io/crew.html"
+   ],
+   "h1": [
+    "Freelancers vetted four times before you meet them."
+   ],
+   "h2": [
+    "Open marketplaces let anyone in. We don't.",
+    "Three seats at one table.",
+    "[Member spotlight headline]",
+    "Two lanes to the same job.",
+    "Simple money rules, for both sides.",
+    "Tell us what you need. We'll bring the right crew.",
+    "What people ask first.",
+    "One family. One standard of quality.",
+    "Vitals Crew",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Organization"
+   ],
+   "faq": [],
+   "og": "Vitals Crew | Vetted Talent, 100% Reviewed",
+   "words": 811
+  },
+  "/ecommerce-marketing.html": {
+   "title": "E-commerce Marketing Agency in Egypt & GCC | Brand Vitals",
+   "description": "Profitable growth for online stores in Egypt and the GCC: paid media, creative testing, conversion optimization and tracking, run as one system.",
+   "canonical": "https://brandvitals.io/ecommerce-marketing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/ecommerce-marketing.html",
+    "en https://brandvitals.io/ecommerce-marketing.html",
+    "x-default https://brandvitals.io/ecommerce-marketing.html"
+   ],
+   "h1": [
+    "Online stores, grown profitably."
+   ],
+   "h2": [
+    "What usually gets in the way.",
+    "How we grow businesses like yours.",
+    "Results in this industry",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Which platforms work best for e-commerce in Egypt?",
+    "Do you work with Shopify stores?",
+    "How do you handle cash-on-delivery tracking?"
+   ],
+   "og": "E-commerce Marketing Agency in Egypt & GCC | Brand Vitals",
+   "words": 352
+  },
+  "/frames.html": {
+   "title": "Vitals Frames | Production Studio for Brands in Cairo",
+   "description": "Vitals Frames is a production studio in Cairo for brands and in-house teams: ad creatives, brand films, product photography, motion and monthly content built to perform.",
+   "canonical": "https://brandvitals.io/frames.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/frames.html",
+    "en https://brandvitals.io/frames.html",
+    "x-default https://brandvitals.io/frames.html"
+   ],
+   "h1": [
+    "Content madeto perform."
+   ],
+   "h2": [
+    "Seven services. One test: does it perform?",
+    "[Selected work headline]",
+    "Built for teams that need output, not overhead.",
+    "From brief to every format, on one timeline.",
+    "Production on a monthly rhythm.",
+    "Creative informed by performance data.",
+    "Before you book.",
+    "Tell us what you need to make.",
+    "Vitals Frames",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "How fast is turnaround?",
+    "Who owns the usage rights?",
+    "How many revisions are included?",
+    "Where do you shoot, and who is on the crew?",
+    "Do we get the raw files?"
+   ],
+   "og": "Vitals Frames | Content Made to Perform",
+   "words": 886
+  },
+  "/go.html": {
+   "title": "Vitals GO | Send. Approve. Get paid.",
+   "description": "Vitals GO for agencies: send work on one link, get client approvals on any channel, keep a record of every decision and bill the extra work.",
+   "canonical": "https://brandvitals.io/go.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/go.html",
+    "en https://brandvitals.io/go.html",
+    "x-default https://brandvitals.io/go.html"
+   ],
+   "h1": [
+    "Send. Approve. Get paid."
+   ],
+   "h2": [
+    "Send it. They say GO. You get paid.",
+    "Real screens. Nothing mocked up.",
+    "One price per agency, by active clients. Your team and clients are free.",
+    "Your clients' work stays yours.",
+    "[Agency quote]",
+    "Your next approval could be green today.",
+    "What agencies ask first.",
+    "Built by an agency, for agencies.",
+    "Vitals GO",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "Do my clients need an account or an app?",
+    "Do we have to use WhatsApp?",
+    "Do we need to leave our current tools?",
+    "How does pricing work?"
+   ],
+   "og": "Vitals GO | Send. Approve. Get paid.",
+   "words": 817
+  },
+  "/google-ads.html": {
+   "title": "Google Ads Management Agency in Cairo, Egypt | Brand Vitals",
+   "description": "Google Ads management from Cairo: Search, Performance Max, Shopping and YouTube built on intent and profit, in Arabic and English, for Egypt and the GCC.",
+   "canonical": "https://brandvitals.io/google-ads.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/google-ads.html",
+    "en https://brandvitals.io/google-ads.html",
+    "x-default https://brandvitals.io/google-ads.html"
+   ],
+   "h1": [
+    "Be there when they search."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Do you manage Google Ads in Arabic?",
+    "Is Performance Max a good idea?",
+    "Can you track phone calls and WhatsApp leads?",
+    "What is your minimum engagement?"
+   ],
+   "og": "Google Ads Management Agency in Cairo, Egypt | Brand Vitals",
+   "words": 490
+  },
+  "/healthcare-marketing.html": {
+   "title": "Healthcare & Clinic Marketing Agency in Egypt & GCC | Brand Vitals",
+   "description": "Patient acquisition for clinics, hospitals and healthcare groups: compliant campaigns, CRM-connected lead generation, and bookings measured end to end.",
+   "canonical": "https://brandvitals.io/healthcare-marketing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/healthcare-marketing.html",
+    "en https://brandvitals.io/healthcare-marketing.html",
+    "x-default https://brandvitals.io/healthcare-marketing.html"
+   ],
+   "h1": [
+    "More bookings, not just more inquiries."
+   ],
+   "h2": [
+    "What usually gets in the way.",
+    "How we grow businesses like yours.",
+    "Results in this industry",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Can healthcare businesses advertise on Meta?",
+    "Do you work across Egypt and the GCC?",
+    "How do you measure bookings?"
+   ],
+   "og": "Healthcare & Clinic Marketing Agency in Egypt & GCC | Brand Vitals",
+   "words": 301
+  },
+  "/index.html": {
+   "title": "Brand Vitals | Marketing Agency in Cairo, Egypt & MENA",
+   "description": "Brand Vitals is a marketing agency in Cairo uniting strategy, creative, web and performance marketing into one growth system for Egypt and Saudi Arabia.",
+   "canonical": "https://brandvitals.io/",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/",
+    "en https://brandvitals.io/",
+    "x-default https://brandvitals.io/"
+   ],
+   "h1": [
+    "We build brands that grow."
+   ],
+   "h2": [
+    "Everything your brand needs to grow.",
+    "We don't start with channels. We start with the business.",
+    "Proof, not promises.",
+    "Real work. Measurable results.",
+    "Built around the outcome.",
+    "Built for ambitious businesses.",
+    "Two home markets. One team that knows both.",
+    "One ecosystem, one growth system.",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "Brand",
+    "ContactPoint",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "PostalAddress",
+    "Question",
+    "WebSite"
+   ],
+   "faq": [
+    "What does Brand Vitals do?",
+    "Does Brand Vitals manage Meta and Google Ads?",
+    "Do you work with e-commerce businesses?",
+    "Do you work with businesses in Egypt and the GCC?",
+    "Do you offer fixed marketing packages?",
+    "Can you work with our existing marketing team?",
+    "How do we start?"
+   ],
+   "og": "Brand Vitals | We Build Brands That Grow",
+   "words": 1405
+  },
+  "/jobs.html": {
+   "title": "Vitals Jobs | Creative and Marketing Jobs, Screened",
+   "description": "Vitals Jobs: creative and marketing jobs by Brand Vitals. One profile, one-step applications, and every application screened before companies see it.",
+   "canonical": "https://brandvitals.io/jobs.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/jobs.html",
+    "en https://brandvitals.io/jobs.html",
+    "x-default https://brandvitals.io/jobs.html"
+   ],
+   "h1": [
+    "Creative and marketing jobs, screened by people who do the work."
+   ],
+   "h2": [
+    "A job board, with one step in the middle.",
+    "Read by people who know the job.",
+    "Less sorting. Better interviews.",
+    "Creative and marketing. Nothing else.",
+    "Same job post. A different inbox.",
+    "Tell us the role. We'll send the right people.",
+    "What people ask first.",
+    "One family. One standard of quality.",
+    "Vitals Jobs",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Organization"
+   ],
+   "faq": [],
+   "og": "Vitals Jobs | Creative and Marketing Jobs",
+   "words": 736
+  },
+  "/performance-marketing.html": {
+   "title": "Performance Marketing Agency in Egypt & MENA | Brand Vitals",
+   "description": "Paid social measured on revenue, not reach: Meta, TikTok and Snapchat campaigns with creative testing, clean tracking and weekly optimization.",
+   "canonical": "https://brandvitals.io/performance-marketing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/performance-marketing.html",
+    "en https://brandvitals.io/performance-marketing.html",
+    "x-default https://brandvitals.io/performance-marketing.html"
+   ],
+   "h1": [
+    "Paid social, measured on revenue."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "What budget do I need for paid social?",
+    "Who owns the ad accounts?",
+    "Do you create the ads too?",
+    "How fast will we see results?"
+   ],
+   "og": "Performance Marketing Agency in Egypt & MENA | Brand Vitals",
+   "words": 514
+  },
+  "/privacy.html": {
+   "title": "Privacy Policy, Brand Vitals",
+   "description": "How Brand Vitals collects, uses and protects your data, in line with Egypt's Personal Data Protection Law (151/2020) and Saudi Arabia's PDPL.",
+   "canonical": "https://brandvitals.io/privacy.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/privacy.html",
+    "en https://brandvitals.io/privacy.html",
+    "x-default https://brandvitals.io/privacy.html"
+   ],
+   "h1": [
+    "Privacy Policy"
+   ],
+   "h2": [
+    "1. Who we are",
+    "2. What we collect",
+    "3. How we use it",
+    "4. Who sees what",
+    "5. Legal bases and regional laws",
+    "6. Cookies and tracking",
+    "7. Storage and transfers",
+    "8. Retention",
+    "9. Your rights",
+    "10. Changes and contact",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [],
+   "faq": [],
+   "og": "",
+   "words": 541
+  },
+  "/products.html": {
+   "title": "Pricing | Brand Vitals Marketing Agency",
+   "description": "No fixed packages: every Brand Vitals engagement is scoped to your goals, services and market, then priced in a custom proposal. Start with a free audit.",
+   "canonical": "https://brandvitals.io/products.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/products.html",
+    "en https://brandvitals.io/products.html",
+    "x-default https://brandvitals.io/products.html"
+   ],
+   "h1": [
+    "No fixed packages. Priced around you."
+   ],
+   "h2": [
+    "What we offer",
+    "From first call to first report.",
+    "Clear terms in Egypt and Saudi Arabia.",
+    "How the products are priced.",
+    "Not sure which fits?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "OfferCatalog",
+    "Service"
+   ],
+   "faq": [],
+   "og": "Pricing | Brand Vitals",
+   "words": 439
+  },
+  "/real-estate-marketing.html": {
+   "title": "Real Estate Marketing Agency in Egypt & Saudi Arabia | Brand Vitals",
+   "description": "Brand, campaigns and lead generation for developers and brokers in Egypt and Saudi Arabia, from positioning and film to qualified leads your sales team can close.",
+   "canonical": "https://brandvitals.io/real-estate-marketing.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/real-estate-marketing.html",
+    "en https://brandvitals.io/real-estate-marketing.html",
+    "x-default https://brandvitals.io/real-estate-marketing.html"
+   ],
+   "h1": [
+    "Leads your sales team wants to call."
+   ],
+   "h2": [
+    "What usually gets in the way.",
+    "How we grow businesses like yours.",
+    "Results in this industry",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question"
+   ],
+   "faq": [
+    "Do you work with developers in Saudi Arabia?",
+    "How do you improve lead quality?",
+    "Can you produce the project film?"
+   ],
+   "og": "Real Estate Marketing Agency in Egypt & Saudi Arabia | Brand Vitals",
+   "words": 354
+  },
+  "/seo.html": {
+   "title": "SEO Agency in Egypt | Arabic & English SEO | Brand Vitals",
+   "description": "Technical SEO, Arabic content and search strategy built for how people search in Egypt and the GCC, with bilingual architecture and hreflang done right.",
+   "canonical": "https://brandvitals.io/seo.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/seo.html",
+    "en https://brandvitals.io/seo.html",
+    "x-default https://brandvitals.io/seo.html"
+   ],
+   "h1": [
+    "Rank in the language your customers search in."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "How long does SEO take?",
+    "Should I target Egyptian dialect or Modern Standard Arabic?",
+    "Do you build backlinks?",
+    "What is AI search optimization?"
+   ],
+   "og": "SEO Agency in Egypt | Arabic & English SEO | Brand Vitals",
+   "words": 492
+  },
+  "/solutions.html": {
+   "title": "Services | Strategy, Creative, Web & Growth | Brand Vitals",
+   "description": "Brand Vitals services: strategy, brand and creative, web and experience, and marketing and growth, working as one system across Egypt and the region.",
+   "canonical": "https://brandvitals.io/solutions.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/solutions.html",
+    "en https://brandvitals.io/solutions.html",
+    "x-default https://brandvitals.io/solutions.html"
+   ],
+   "h1": [
+    "Everything your brand needs to grow."
+   ],
+   "h2": [
+    "Our services",
+    "One conversation. One plan. One accountable team.",
+    "Not sure where to start?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ItemList",
+    "ListItem",
+    "Service"
+   ],
+   "faq": [],
+   "og": "Services | Brand Vitals",
+   "words": 279
+  },
+  "/stage.html": {
+   "title": "Vitals Stage | Event Organization, Management and Production",
+   "description": "Vitals Stage plans, manages and produces conferences, corporate events, product launches and exhibitions across Egypt and the region, with one accountable team.",
+   "canonical": "https://brandvitals.io/stage.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/stage.html",
+    "en https://brandvitals.io/stage.html",
+    "x-default https://brandvitals.io/stage.html"
+   ],
+   "h1": [
+    "Events, organizedand produced end to end."
+   ],
+   "h2": [
+    "Organization, management and production, under one team.",
+    "Built for business events.",
+    "[Events headline]",
+    "Six phases, one accountable lead.",
+    "Before you brief us.",
+    "Tell us about your event.",
+    "Vitals Stage",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "What budget ranges do you work with?",
+    "How much lead time do you need?",
+    "Can you manage only part of an event?",
+    "Who builds and runs the technical production?",
+    "Which cities do you cover?"
+   ],
+   "og": "Vitals Stage | Events, Organized and Produced End to End",
+   "words": 751
+  },
+  "/terms.html": {
+   "title": "Terms of Service | Brand Vitals",
+   "description": "Terms of Service for Brand Vitals, Vitals Frames, Web, Stage, GO, Crew and Jobs: scope, fees, payments, rights and responsibilities.",
+   "canonical": "https://brandvitals.io/terms.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/terms.html",
+    "en https://brandvitals.io/terms.html",
+    "x-default https://brandvitals.io/terms.html"
+   ],
+   "h1": [
+    "Terms of Service"
+   ],
+   "h2": [
+    "1. About these terms",
+    "2. Agency and studio services",
+    "3. Vitals GO",
+    "4. Vitals Crew",
+    "5. Vitals Jobs",
+    "6. Payments and taxes",
+    "7. Results",
+    "8. Website content",
+    "9. Liability",
+    "10. Governing law and changes",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [],
+   "faq": [],
+   "og": "",
+   "words": 560
+  },
+  "/vitals-score.html": {
+   "title": "Free Vitals Score | Website & Marketing Health Check | Brand Vitals",
+   "description": "Get a free score out of 100 for your website speed, SEO, Arabic readiness and marketing tracking, with a prioritized list of what to fix first.",
+   "canonical": "https://brandvitals.io/vitals-score.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/vitals-score.html",
+    "en https://brandvitals.io/vitals-score.html",
+    "x-default https://brandvitals.io/vitals-score.html"
+   ],
+   "h1": [
+    "What's your brand's Vitals Score?"
+   ],
+   "h2": [
+    "",
+    "Five vital signs of a healthy growth system.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "WebApplication"
+   ],
+   "faq": [],
+   "og": "Free Vitals Score | Website & Marketing Health Check | Brand Vitals",
+   "words": 355
+  },
+  "/web-cro.html": {
+   "title": "Website Design & CRO in Egypt | Brand Vitals",
+   "description": "Conversion-focused websites and landing pages in Arabic and English, tracking wired in from day one, and ongoing CRO tests to win more from your traffic.",
+   "canonical": "https://brandvitals.io/web-cro.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/web-cro.html",
+    "en https://brandvitals.io/web-cro.html",
+    "x-default https://brandvitals.io/web-cro.html"
+   ],
+   "h1": [
+    "More customers from the same traffic."
+   ],
+   "h2": [
+    "Everything it takes, in one team.",
+    "Four stages, clear milestones.",
+    "Sound familiar?",
+    "Related work",
+    "Questions, answered.",
+    "Have a growth problem worth solving?",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "Answer",
+    "BreadcrumbList",
+    "FAQPage",
+    "ListItem",
+    "Question",
+    "Service"
+   ],
+   "faq": [
+    "Do you build on WordPress, Shopify or custom code?",
+    "What is CRO?",
+    "How much traffic do I need for A/B testing?",
+    "Can you improve our existing site?"
+   ],
+   "og": "Website Design & Conversion Rate Optimization in Egypt | Brand Vitals",
+   "words": 479
+  },
+  "/web.html": {
+   "title": "Vitals Web | Websites That Launch in Weeks",
+   "description": "Vitals Web builds Arabic and English websites on fixed packages and fixed timelines: landing pages, company sites and online stores for Egypt and MENA.",
+   "canonical": "https://brandvitals.io/web.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/web.html",
+    "en https://brandvitals.io/web.html",
+    "x-default https://brandvitals.io/web.html"
+   ],
+   "h1": [
+    "Websites that launchin weeks, not months."
+   ],
+   "h2": [
+    "Websites we've designed and built.",
+    "brandvitals.io",
+    "Three packages. Fixed scope, fixed timeline.",
+    "The foundations, never an add-on.",
+    "Week by week, in plain sight.",
+    "Questions we get before every launch.",
+    "Pick a package. We'll send the plan.",
+    "Vitals Web",
+    "Brands",
+    "Contact"
+   ],
+   "schema": [
+    "Answer",
+    "FAQPage",
+    "Organization",
+    "Question"
+   ],
+   "faq": [
+    "Do you handle hosting?",
+    "What about the domain?",
+    "Who owns the site?",
+    "Can we edit it after launch?",
+    "What if the timeline slips?"
+   ],
+   "og": "Vitals Web | Websites That Launch in Weeks, Not Months",
+   "words": 844
+  },
+  "/work.html": {
+   "title": "Our Work, Case Studies & Results | Brand Vitals",
+   "description": "Selected work by Brand Vitals across e-commerce, real estate, healthcare, F&B and insurance in Egypt & the MENA region. Verified case studies are shared on request.",
+   "canonical": "https://brandvitals.io/work.html",
+   "lang": "en",
+   "hreflang": [
+    "ar https://brandvitals.io/ar/work.html",
+    "en https://brandvitals.io/work.html",
+    "x-default https://brandvitals.io/work.html"
+   ],
+   "h1": [
+    "Proof, not promises."
+   ],
+   "h2": [
+    "Case studies",
+    "Your brand could be next.",
+    "Navigate",
+    "Services",
+    "Industries & tools",
+    "Ecosystem"
+   ],
+   "schema": [
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "faq": [],
+   "og": "Our Work, Brand Vitals",
+   "words": 257
+  }
+ },
+ "files": {
+  "sitemap": [
+   "https://brandvitals.io/",
+   "https://brandvitals.io/about.html",
+   "https://brandvitals.io/analytics-tracking.html",
+   "https://brandvitals.io/ar/",
+   "https://brandvitals.io/ar/about.html",
+   "https://brandvitals.io/ar/analytics-tracking.html",
+   "https://brandvitals.io/ar/blog-arabic-seo-guide.html",
+   "https://brandvitals.io/ar/blog-b2b-to-b2c.html",
+   "https://brandvitals.io/ar/blog-creative-testing.html",
+   "https://brandvitals.io/ar/blog-ecommerce-kpi-stack.html",
+   "https://brandvitals.io/ar/blog-egypt-pricing.html",
+   "https://brandvitals.io/ar/blog-egypt-whatsapp.html",
+   "https://brandvitals.io/ar/blog-focus-your-catalog.html",
+   "https://brandvitals.io/ar/blog-ksa-seasons.html",
+   "https://brandvitals.io/ar/blog-ksa-snapchat.html",
+   "https://brandvitals.io/ar/blog-prospecting-vs-retargeting.html",
+   "https://brandvitals.io/ar/blog.html",
+   "https://brandvitals.io/ar/branding.html",
+   "https://brandvitals.io/ar/careers.html",
+   "https://brandvitals.io/ar/case-architectural-products.html",
+   "https://brandvitals.io/ar/case-healthcare-group.html",
+   "https://brandvitals.io/ar/case-heritage-fashion.html",
+   "https://brandvitals.io/ar/case-luxury-beauty.html",
+   "https://brandvitals.io/ar/case-luxury-real-estate.html",
+   "https://brandvitals.io/ar/case-national-hypermarket.html",
+   "https://brandvitals.io/ar/contact.html",
+   "https://brandvitals.io/ar/crew.html",
+   "https://brandvitals.io/ar/ecommerce-marketing.html",
+   "https://brandvitals.io/ar/frames.html",
+   "https://brandvitals.io/ar/go.html",
+   "https://brandvitals.io/ar/google-ads.html",
+   "https://brandvitals.io/ar/healthcare-marketing.html",
+   "https://brandvitals.io/ar/jobs.html",
+   "https://brandvitals.io/ar/performance-marketing.html",
+   "https://brandvitals.io/ar/privacy.html",
+   "https://brandvitals.io/ar/products.html",
+   "https://brandvitals.io/ar/real-estate-marketing.html",
+   "https://brandvitals.io/ar/seo.html",
+   "https://brandvitals.io/ar/solutions.html",
+   "https://brandvitals.io/ar/stage.html",
+   "https://brandvitals.io/ar/terms.html",
+   "https://brandvitals.io/ar/vitals-score.html",
+   "https://brandvitals.io/ar/web-cro.html",
+   "https://brandvitals.io/ar/web.html",
+   "https://brandvitals.io/ar/work.html",
+   "https://brandvitals.io/blog-arabic-seo-guide.html",
+   "https://brandvitals.io/blog-b2b-to-b2c.html",
+   "https://brandvitals.io/blog-creative-testing.html",
+   "https://brandvitals.io/blog-ecommerce-kpi-stack.html",
+   "https://brandvitals.io/blog-egypt-pricing.html",
+   "https://brandvitals.io/blog-egypt-whatsapp.html",
+   "https://brandvitals.io/blog-focus-your-catalog.html",
+   "https://brandvitals.io/blog-ksa-seasons.html",
+   "https://brandvitals.io/blog-ksa-snapchat.html",
+   "https://brandvitals.io/blog-prospecting-vs-retargeting.html",
+   "https://brandvitals.io/blog.html",
+   "https://brandvitals.io/branding.html",
+   "https://brandvitals.io/careers.html",
+   "https://brandvitals.io/case-architectural-products.html",
+   "https://brandvitals.io/case-healthcare-group.html",
+   "https://brandvitals.io/case-heritage-fashion.html",
+   "https://brandvitals.io/case-luxury-beauty.html",
+   "https://brandvitals.io/case-luxury-real-estate.html",
+   "https://brandvitals.io/case-national-hypermarket.html",
+   "https://brandvitals.io/contact.html",
+   "https://brandvitals.io/crew.html",
+   "https://brandvitals.io/ecommerce-marketing.html",
+   "https://brandvitals.io/frames.html",
+   "https://brandvitals.io/go.html",
+   "https://brandvitals.io/google-ads.html",
+   "https://brandvitals.io/healthcare-marketing.html",
+   "https://brandvitals.io/jobs.html",
+   "https://brandvitals.io/performance-marketing.html",
+   "https://brandvitals.io/privacy.html",
+   "https://brandvitals.io/products.html",
+   "https://brandvitals.io/real-estate-marketing.html",
+   "https://brandvitals.io/seo.html",
+   "https://brandvitals.io/solutions.html",
+   "https://brandvitals.io/stage.html",
+   "https://brandvitals.io/terms.html",
+   "https://brandvitals.io/vitals-score.html",
+   "https://brandvitals.io/web-cro.html",
+   "https://brandvitals.io/web.html",
+   "https://brandvitals.io/work.html"
+  ],
+  "robots": [
+   "User-agent: *",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "# AI / answer-engine crawlers welcome (GEO)",
+   "User-agent: GPTBot",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "User-agent: ClaudeBot",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "User-agent: Google-Extended",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "User-agent: PerplexityBot",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "User-agent: CCBot",
+   "Allow: /",
+   "Disallow: /dashboard.html",
+   "Disallow: /cms/",
+   "Disallow: /app/",
+   "Disallow: /crew/",
+   "Disallow: /jobs/",
+   "Disallow: /api/",
+   "Sitemap: https://brandvitals.io/sitemap.xml",
+   "# Plain-text summary for answer engines: https://brandvitals.io/llms.txt"
+  ],
+  "llms": [
+   "https://brandvitals.io/about.html",
+   "https://brandvitals.io/analytics-tracking.html",
+   "https://brandvitals.io/blog-egypt-pricing.html",
+   "https://brandvitals.io/blog-egypt-whatsapp.html",
+   "https://brandvitals.io/blog-ksa-seasons.html",
+   "https://brandvitals.io/blog-ksa-snapchat.html",
+   "https://brandvitals.io/branding.html",
+   "https://brandvitals.io/careers.html",
+   "https://brandvitals.io/contact.html",
+   "https://brandvitals.io/crew.html",
+   "https://brandvitals.io/frames.html",
+   "https://brandvitals.io/go.html",
+   "https://brandvitals.io/google-ads.html",
+   "https://brandvitals.io/jobs.html",
+   "https://brandvitals.io/performance-marketing.html",
+   "https://brandvitals.io/privacy.html",
+   "https://brandvitals.io/products.html",
+   "https://brandvitals.io/seo.html",
+   "https://brandvitals.io/stage.html",
+   "https://brandvitals.io/terms.html",
+   "https://brandvitals.io/web-cro.html",
+   "https://brandvitals.io/web.html",
+   "https://brandvitals.io/work.html"
+  ],
+  "llmsWords": 357,
+  "llmsFullWords": 1
+ }
+}

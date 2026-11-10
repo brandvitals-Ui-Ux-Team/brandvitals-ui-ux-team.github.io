@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" role="img" aria-label="Vitals Hire">
+  <!-- Temporary: mark + name until the new Vitals Hire wordmark is delivered -->
+  <rect x="2" y="6" width="36" height="36" rx="9" fill="#C6F432"/>
+  <path d="M8 31H15L16.6 33.2L18.8 28L21 34.6L22.6 31H32" fill="none" stroke="#141806" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.3 12.5V25.2H16.9V20H23.1V25.2H25.7V12.5H23.1V17.6H16.9V12.5Z" fill="#141806"/>
+  <text x="48" y="32" font-family="Alexandria, Inter, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#181B0E">Vitals Hire</text>
+</svg>

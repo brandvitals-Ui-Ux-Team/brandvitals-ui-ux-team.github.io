@@ -1,0 +1,31 @@
+{
+  "name": "Vitals Hire",
+  "short_name": "Vitals Hire",
+  "description": "Creative and marketing jobs, every application screened by Brand Vitals.",
+  "lang": "en",
+  "dir": "auto",
+  "start_url": "/jobs/?app=1",
+  "scope": "/jobs/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A1326",
+  "theme_color": "#0A1326",
+  "icons": [
+    {
+      "src": "/jobs/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/jobs/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/jobs/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+/* ==========================================================================
+   Brand Vitals theme: "Monitor" (direction A). Loaded after main.css on every page.
+   Dark, exact, like a vital-signs screen: measuring grid, a live trace, instrument
+   panels, labels in the monospace of a device. Brand cyan stays the only accent;
+   green means "live", and each pillar keeps its vital-sign colour.
+   Presentation only: no text, heading, link or address is changed by this file.
+   ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap");
+
+:root {
+  --v-amber: #FFC857; --v-pink: #FF7AC6; --v-violet: #A394FF; --v-green: #3DFFA2; --v-cyan: #00CFFF;
+  --font-display: "Sora", "Alexandria", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --fs-h2: clamp(2rem, 1.1rem + 3vw, 3.9rem);
+  --panel: #070D11; --panel-line: #14272F; --panel-line-2: #1D3A46;
+}
+[data-theme="light"] { --panel: #FFFFFF; --panel-line: #D9E3E9; --panel-line-2: #BCCBD4; --v-green: #0B9A5B; --v-amber: #A86A00; --v-pink: #C2267F; --v-violet: #5A45D6; }
+
+/* ---------- the page: deep ink with a cyan glow at the top and a faint measuring grid ---------- */
+:root:not([data-theme="light"]) body:not([data-brand]) {
+  background:
+    radial-gradient(1200px 520px at 82% -120px, rgba(0, 150, 190, 0.28), transparent 62%),
+    radial-gradient(900px 480px at 0% 38%, rgba(0, 207, 255, 0.05), transparent 60%),
+    var(--bg);
+  background-attachment: scroll;
+}
+h1, h2, h3 { font-weight: 600; }
+h1, h2 { letter-spacing: -0.035em; line-height: 1.04; text-wrap: balance; }
+[dir="rtl"] h1, [dir="rtl"] h2 { letter-spacing: 0; line-height: 1.3; }
+.lead { text-wrap: pretty; }
+
+/* ---------- section labels: device text with a live light ---------- */
+.eyebrow {
+  width: fit-content; justify-self: start; gap: 0.65rem; padding: 0; border: 0; background: none;
+  font-family: var(--font-mono); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--accent-text, var(--accent));
+}
+[dir="rtl"] .eyebrow { font-family: var(--font-ar); letter-spacing: 0; font-size: 0.86rem; }
+.eyebrow::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: none; background: var(--v-green); box-shadow: 0 0 0 4px color-mix(in srgb, var(--v-green) 18%, transparent); animation: mon-beat 1.8s ease-in-out infinite; }
+@keyframes mon-beat { 0%, 100% { transform: scale(1); } 14% { transform: scale(1.45); } 28% { transform: scale(1); } }
+.section-head--center .eyebrow, .cta-band__card .eyebrow, .hero--center .eyebrow, .page-hero .eyebrow { justify-self: center; }
+
+/* ---------- buttons ---------- */
+.btn { font-weight: 700; }
+:root:not([data-theme="light"]) .btn--primary { box-shadow: 0 0 0 1px rgba(0, 207, 255, 0.35), 0 16px 40px -14px rgba(0, 207, 255, 0.65); }
+.btn--primary:hover { transform: translateY(-2px); }
+.btn--ghost { border-color: var(--panel-line-2); background: color-mix(in srgb, var(--panel) 70%, transparent); }
+
+/* ---------- instrument panels ---------- */
+.card, .ind-tile, .perk, .post-card, .case-card, .process-step {
+  background: var(--panel); border: 1px solid var(--panel-line); box-shadow: none;
+  transition: transform 0.4s var(--ease-out), border-color 0.3s, box-shadow 0.4s;
+}
+.card:hover, .ind-tile:hover, .perk:hover, .post-card:hover, .case-card:hover, .process-step:hover {
+  transform: translateY(-4px); border-color: color-mix(in srgb, var(--c, var(--accent)) 60%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--c, var(--accent)) 18%, transparent), 0 30px 60px -36px color-mix(in srgb, var(--c, var(--accent)) 55%, transparent);
+}
+a.card.is-soon:hover { transform: none; box-shadow: none; }
+
+/* the pillars: each in its vital-sign colour, numbered like channels on a monitor */
+.svc-card:nth-child(4n+1) { --c: var(--v-cyan); } .svc-card:nth-child(4n+2) { --c: var(--v-amber); }
+.svc-card:nth-child(4n+3) { --c: var(--v-green); } .svc-card:nth-child(4n+4) { --c: var(--v-pink); }
+[data-theme="light"] .svc-card:nth-child(4n+1) { --c: var(--l-accent); }
+.svc-card::after { content: ""; position: absolute; inset-inline-start: 0; top: 18%; bottom: 18%; width: 2px; background: var(--c, var(--accent)); box-shadow: 0 0 14px var(--c, var(--accent)); opacity: 0.9; }
+.svc-card::before { background: radial-gradient(460px circle at var(--mx, 50%) var(--my, 0%), color-mix(in srgb, var(--c, var(--accent)) 12%, transparent), transparent 60%); }
+.svc-card__icon { color: var(--c, var(--accent)); background: color-mix(in srgb, var(--c, var(--accent)) 10%, transparent); border-color: color-mix(in srgb, var(--c, var(--accent)) 30%, transparent); border-radius: 12px; }
+.case-card:nth-child(5n+1), .ind-tile:nth-child(5n+1) { --c: var(--v-cyan); } .case-card:nth-child(5n+2), .ind-tile:nth-child(5n+2) { --c: var(--v-green); }
+.case-card:nth-child(5n+3), .ind-tile:nth-child(5n+3) { --c: var(--v-amber); } .case-card:nth-child(5n+4), .ind-tile:nth-child(5n+4) { --c: var(--v-pink); }
+.case-card:nth-child(5n+5), .ind-tile:nth-child(5n+5) { --c: var(--v-violet); }
+[data-theme="light"] .case-card:nth-child(5n+1), [data-theme="light"] .ind-tile:nth-child(5n+1) { --c: var(--l-accent); }
+.case-card__stat em, .ind-tile .mono, .ind-tile svg { color: var(--c, var(--accent)); }
+
+/* ---------- process: numbered readouts ---------- */
+.process__grid { border: 0; gap: clamp(0.8rem, 1.6vw, 1.2rem); }
+.process-step { border-radius: var(--r-lg); padding: clamp(1.4rem, 2.4vw, 2rem); }
+.process-step__num { font-family: var(--font-mono); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; color: var(--accent-text, var(--accent)); }
+.process-step__num::after { height: 1px; background: repeating-linear-gradient(90deg, var(--panel-line-2) 0 6px, transparent 6px 12px); opacity: 1; }
+
+/* ---------- results: one screen, read like a monitor ---------- */
+.results-grid {
+  position: relative; background: var(--panel); border: 1px solid var(--panel-line-2); border-radius: clamp(18px, 2.4vw, 28px);
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line) 1px, transparent 1px); background-size: 28px 28px;
+}
+.result-card { background: transparent; }
+.result-card:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.result-card__value { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.04em; color: var(--accent-text, var(--accent)); }
+:root:not([data-theme="light"]) .result-card__value { text-shadow: 0 0 28px rgba(0, 207, 255, 0.45); }
+.result-card__type { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-3); }
+[dir="rtl"] .result-card__type { font-family: var(--font-ar); letter-spacing: 0; font-size: 0.84rem; }
+
+/* ---------- closing call to action: a lit panel with the trace running through it ---------- */
+.cta-band__card { background: var(--panel); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); }
+:root:not([data-theme="light"]) .cta-band__card { background: radial-gradient(700px 300px at 50% 0%, rgba(0, 207, 255, 0.16), transparent 70%), var(--panel); box-shadow: 0 0 0 1px rgba(0, 207, 255, 0.08), 0 50px 120px -60px rgba(0, 207, 255, 0.55); }
+.cta-band__card::after { bottom: 3%; height: 70px; }
+
+/* ---------- hero ---------- */
+/* a live trace along the bottom of every hero */
+.hero::after { content: ""; position: absolute; inset-inline: 0; bottom: 0; height: 84px; z-index: -1; pointer-events: none; opacity: 0.6;
+  background: linear-gradient(90deg, transparent, var(--accent) 45%, #fff 50%, var(--accent) 55%, transparent) 0 0 / 220% 100% no-repeat, color-mix(in srgb, var(--accent) 26%, transparent);
+  -webkit-mask: var(--ecg-mask) center / 100% 100% no-repeat; mask: var(--ecg-mask) center / 100% 100% no-repeat; animation: mon-sweep 5s linear infinite; }
+@keyframes mon-sweep { from { background-position: 180% 0, 0 0; } to { background-position: -80% 0, 0 0; } }
+/* the homepage window becomes the monitor screen: grid inside, lit edge */
+:root:not([data-theme="light"]) .bvh__win {
+  border-color: var(--panel-line-2);
+  background-color: #050B0F;
+  background-image: linear-gradient(rgba(14, 39, 49, 0.7) 1px, transparent 1px), linear-gradient(90deg, rgba(14, 39, 49, 0.7) 1px, transparent 1px);
+  background-size: 28px 28px;
+  box-shadow: 0 0 0 1px rgba(0, 207, 255, 0.1), 0 60px 140px -70px rgba(0, 207, 255, 0.6);
+}
+.browser__url { font-family: var(--font-mono); letter-spacing: 0.06em; font-size: 0.72rem; text-transform: uppercase; }
+[dir="rtl"] .browser__url { font-family: var(--font-ar); letter-spacing: 0; text-transform: none; font-size: 0.8rem; }
+:root:not([data-theme="light"]) .bvh-card { background: rgba(5, 11, 15, 0.92); border-color: var(--panel-line-2); }
+.bvh-card__k, .bvh-card__h i, .tick__label { font-family: var(--font-mono); letter-spacing: 0.08em; }
+[dir="rtl"] .tick__label { font-family: var(--font-ar); letter-spacing: 0; }
+.bvh-card__v, .tick__num { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.03em; }
+.bvh-plats li { background: var(--panel); border-color: var(--panel-line); font-family: var(--font-mono); font-size: 0.76rem; }
+
+/* ---------- header and footer ---------- */
+.nav.is-scrolled { box-shadow: 0 1px 0 var(--panel-line), 0 18px 40px -30px rgba(0, 0, 0, 0.8); }
+.footer__h { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); }
+[dir="rtl"] .footer__h { font-family: var(--font-ar); letter-spacing: 0; font-size: 0.9rem; }
+.footer__dash--team { border-color: color-mix(in srgb, var(--accent) 45%, transparent); color: var(--accent-text, var(--accent)); }
+
+@media (max-width: 767px) { .hero::after { height: 54px; } }
+@media (prefers-reduced-motion: reduce) { .eyebrow::before, .hero::after { animation: none; } }
+
+/* ==========================================================================
+   Part 2: a creative agency, not a device.
+   The dark base and the pulse stay as the signature, but the page now shows
+   what the agency makes: ads, brand sheets, websites, plans. Expressive type
+   (an italic serif for the word that matters), colour used generously, soft
+   shapes, a running band of services, a turning badge in the hero.
+   The drawn pieces come from assets/js/main.js ("Studio" block): decoration
+   only (aria-hidden), wireframe-style, with no numbers or claims in them.
+   ========================================================================== */
+body:not([data-brand]) { --serif: "Instrument Serif", "Times New Roman", serif; }
+
+/* type: tight and heavy, with one word set in italic serif */
+body:not([data-brand]) :is(h1, h2) { font-weight: 700; }
+body:not([data-brand]) .hero__title { font-size: clamp(3.1rem, 1.2rem + 7vw, 7.4rem); letter-spacing: -0.05em; font-weight: 700; }
+html:not([dir="rtl"]) body:not([data-brand]) .hero__title .shimmer { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -0.02em; font-size: 1.12em; padding-inline-end: 0.08em; }
+[dir="rtl"] body:not([data-brand]) .hero__title { letter-spacing: 0; }
+
+/* labels become stickers */
+body:not([data-brand]) .eyebrow { font-family: var(--font-display); font-size: 0.8rem; font-weight: 600; letter-spacing: 0; text-transform: none; padding: 0.42rem 0.95rem 0.42rem 0.75rem; border-radius: 999px; color: var(--text); background: color-mix(in srgb, var(--accent) 14%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent); transform: rotate(-1.5deg); }
+[dir="rtl"] body:not([data-brand]) .eyebrow { font-family: var(--font-ar); font-size: 0.88rem; transform: rotate(1.5deg); }
+body:not([data-brand]) .eyebrow::before { background: var(--accent); box-shadow: none; }
+main > section:nth-of-type(4n+2) .eyebrow { --accent: var(--v-pink); } main > section:nth-of-type(4n+3) .eyebrow { --accent: var(--v-amber); } main > section:nth-of-type(4n+4) .eyebrow { --accent: var(--v-green); }
+
+/* buttons and panels: soft, generous, confident */
+body:not([data-brand]) .btn { font-family: var(--font-display); font-weight: 700; }
+[dir="rtl"] body:not([data-brand]) .btn { font-family: var(--font-ar); }
+body:not([data-brand]) .btn--primary:hover { transform: translateY(-2px) rotate(-1deg); }
+body:not([data-brand]) :is(.card, .ind-tile, .perk, .post-card, .case-card, .process-step) { border-radius: clamp(20px, 2.2vw, 30px); }
+body:not([data-brand]) .results-grid { border-radius: clamp(22px, 2.6vw, 34px); background-image: none; }
+body:not([data-brand]) .result-card__type, body:not([data-brand]) .process-step__num, body:not([data-brand]) .footer__h { font-family: var(--font-display); letter-spacing: 0.02em; text-transform: none; }
+body:not([data-brand]) .process-step__num { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+:root:not([data-theme="light"]) .bvh__win { background-image: none; background-color: #070D11; }
+.browser__url { font-family: var(--font-body); letter-spacing: 0; text-transform: none; font-size: 0.78rem; }
+.bvh-card__k, .bvh-card__h i, .tick__label, .bvh-plats li { font-family: var(--font-body); letter-spacing: 0; }
+
+/* the hero sweep stays, quietly */
+.mon-scope { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; opacity: 0.55; }
+.has-scope::after { display: none !important; }
+
+/* a turning badge on the hero window */
+.st-badge { position: absolute; z-index: 3; top: -46px; inset-inline-end: -46px; width: 124px; height: 124px; pointer-events: none; }
+.st-badge svg { width: 100%; height: 100%; animation: st-turn 18s linear infinite; }
+.st-badge text { font: 700 11.5px var(--font-display); letter-spacing: 0.16em; fill: #03222B; }
+.st-badge circle { fill: var(--v-cyan); }
+.st-badge b { position: absolute; inset: 0; display: grid; place-items: center; font-size: 30px; color: #03222B; }
+@keyframes st-turn { to { transform: rotate(360deg); } }
+@media (max-width: 767px) { .st-badge { width: 84px; height: 84px; top: -34px; inset-inline-end: -6px; } .st-badge b { font-size: 20px; } }
+
+/* a running band of what the agency does */
+.st-band { overflow: hidden; direction: ltr; padding-block: clamp(1rem, 2vw, 1.6rem); border-block: 1px solid var(--panel-line); background: var(--v-cyan); color: #03222B; transform: rotate(-1.2deg) scale(1.02); margin-block: clamp(1rem, 3vw, 2.4rem); }
+.st-band__run { display: inline-flex; gap: clamp(1.2rem, 3vw, 2.6rem); align-items: center; white-space: nowrap; animation: st-run 36s linear infinite; font: 700 clamp(1.6rem, 1rem + 3vw, 3.6rem)/1 var(--font-display); letter-spacing: -0.03em; }
+[dir="rtl"] .st-band__run { font-family: var(--font-ar); letter-spacing: 0; }
+.st-band__run i { font-style: normal; font-size: 0.6em; }
+html:not([dir="rtl"]) .st-band__run span:nth-of-type(even) { font-family: var(--serif); font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
+@keyframes st-run { to { transform: translateX(-50%); } }
+
+/* each pillar shows a piece of the work, drawn as a wireframe */
+.st-art { position: relative; height: 150px; margin-top: 0.6rem; pointer-events: none; --k: var(--c, var(--accent)); direction: ltr; }
+.st-art * { position: absolute; box-sizing: border-box; }
+.st-art .ln { height: 6px; border-radius: 3px; background: color-mix(in srgb, var(--text) 22%, transparent); }
+.st-art .bx { border-radius: 12px; background: color-mix(in srgb, var(--k) 16%, var(--panel)); border: 1px solid color-mix(in srgb, var(--k) 45%, transparent); }
+.st-art .note { width: 92px; height: 86px; border-radius: 6px; padding: 12px 10px; font: 700 0.78rem var(--font-display); color: #03222B; box-shadow: 0 14px 24px -14px rgba(0, 0, 0, 0.7); }
+.st-art .note::after { content: ""; position: absolute; left: 10px; right: 22px; top: 40px; height: 5px; border-radius: 3px; background: rgba(3, 34, 43, 0.3); box-shadow: 0 12px 0 rgba(3, 34, 43, 0.2); }
+.st-art .aa { font: italic 400 78px/1 var(--serif); color: var(--text); }
+.st-art .sw { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--panel); }
+.st-art .mark { width: 64px; height: 64px; border-radius: 20px; background: var(--k); display: grid; place-items: center; font: 800 30px var(--font-display); color: #03222B; transform: rotate(-8deg); }
+.st-art .pill { height: 22px; border-radius: 999px; background: var(--k); }
+.st-art .dot { width: 8px; height: 8px; border-radius: 50%; background: color-mix(in srgb, var(--text) 30%, transparent); }
+.st-art .phone { width: 118px; height: 150px; border-radius: 18px 18px 0 0; border: 1px solid color-mix(in srgb, var(--text) 26%, transparent); border-bottom: 0; background: var(--panel); }
+.st-art .play { width: 0; height: 0; border-style: solid; border-width: 9px 0 9px 15px; border-color: transparent transparent transparent var(--k); }
+.st-art .tag { font: 700 0.62rem var(--font-display); padding: 3px 8px; border-radius: 999px; background: var(--k); color: #03222B; white-space: nowrap; }
+.st-art .heart { font-size: 20px; color: var(--v-pink); animation: st-pop 2.4s ease-in-out infinite; }
+@keyframes st-pop { 0%, 100% { transform: scale(1); } 12% { transform: scale(1.35); } 24% { transform: scale(1); } }
+.svc-card:hover .st-art .note, .svc-card:hover .st-art .mark { transition: transform 0.5s var(--ease-out); }
+.svc-card:hover .st-art .n1 { transform: rotate(-9deg) translateY(-6px); } .svc-card:hover .st-art .n3 { transform: rotate(8deg) translateY(-6px); }
+.svc-card:hover .st-art .mark { transform: rotate(6deg) scale(1.06); }
+@media (min-width: 960px) {
+  body:not([data-brand]) .grid-2:has(> .svc-card) > .svc-card { grid-template-columns: minmax(0, 1fr) 260px; column-gap: 1.6rem; }
+  .grid-2:has(> .svc-card) > .svc-card > :is(.svc-card__icon, h3, p, .svc-card__tags) { grid-column: 1; }
+  .grid-2:has(> .svc-card) > .svc-card > .st-art { grid-column: 2; grid-row: 1 / span 4; align-self: center; margin-top: 0; height: 170px; }
+}
+@media (prefers-reduced-motion: reduce) { .st-badge svg, .st-band__run, .st-art .heart { animation: none; } }
+/* the band tilts inside its own clipped box, so it never widens the page */
+.st-band { position: relative; transform: none; background: none; border: 0; padding-block: clamp(2rem, 4vw, 3.4rem); margin-block: 0; }
+.st-band::before { content: ""; position: absolute; inset-inline: -6%; inset-block: clamp(1rem, 2vw, 1.6rem); background: var(--v-cyan); transform: rotate(-1.2deg); }
+.st-band__run { position: relative; transform-origin: left center; rotate: -1.2deg; }

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Brand Vitals: ٣ اتجاهات للتصميم الجديد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #0b0d10; color: #e9edf1; font-family: "IBM Plex Sans Arabic", system-ui, sans-serif; line-height: 1.6; }
+  a { color: inherit; }
+  .intro { max-width: 1180px; margin: 0 auto; padding: 44px 20px 20px; }
+  .intro h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin: 0 0 10px; line-height: 1.25; }
+  .intro p { margin: 0 0 8px; color: #a9b3bd; max-width: 62ch; }
+  .picker { position: sticky; top: 0; z-index: 20; background: rgba(11,13,16,.88); backdrop-filter: blur(10px); border-bottom: 1px solid #20262d; }
+  .picker div { max-width: 1180px; margin: 0 auto; padding: 10px 20px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .picker a { text-decoration: none; padding: 8px 16px; border: 1px solid #2a323b; border-radius: 999px; font-size: .92rem; font-weight: 600; }
+  .picker a:hover, .picker a:focus-visible { border-color: #00CFFF; color: #00CFFF; outline: none; }
+  .dir { max-width: 1180px; margin: 0 auto; padding: 38px 20px 10px; scroll-margin-top: 60px; }
+  .dir > header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  .dir > header b { font: 700 .8rem "JetBrains Mono", monospace; color: #0b0d10; background: #00CFFF; padding: 3px 10px; border-radius: 6px; }
+  .dir > header h2 { margin: 0; font-size: 1.5rem; }
+  .dir > p { margin: 0 0 18px; color: #a9b3bd; max-width: 70ch; }
+  .frame { border-radius: 18px; overflow: hidden; border: 1px solid #252c34; direction: ltr; text-align: left; }
+  .frame * { min-width: 0; }
+  .nav { display: flex; align-items: center; gap: 22px; padding: 16px clamp(16px, 4vw, 44px); font-size: .86rem; }
+  .nav .logo { font-weight: 800; letter-spacing: -.02em; font-size: 1.05rem; margin-right: auto; white-space: nowrap; }
+  .nav span.l { opacity: .75; }
+  @media (max-width: 720px) { .nav span.l { display: none; } }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; font-weight: 700; font-size: .9rem; white-space: nowrap; }
+  .hero { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(20px, 4vw, 48px); align-items: center; padding: clamp(24px, 5vw, 64px) clamp(16px, 4vw, 44px); }
+  .trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; padding: 0 clamp(16px, 4vw, 44px) clamp(24px, 4vw, 44px); }
+  @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } .trio { grid-template-columns: 1fr; } }
+  .cta-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
+  .choose { margin: 14px 0 0; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; color: #a9b3bd; font-size: .92rem; }
+
+  /* ---------- A · Monitor ---------- */
+  .A { background: radial-gradient(1200px 500px at 80% -10%, #0c3a4a 0%, transparent 60%), #05080b; color: #e8f4f8; font-family: "Sora", sans-serif; }
+  .A .logo i { color: #00CFFF; font-style: normal; }
+  .A .btn.p { background: #00CFFF; color: #031318; }
+  .A .btn.s { border: 1px solid #23414d; }
+  .A .tag { font: 600 .72rem "JetBrains Mono", monospace; letter-spacing: .14em; text-transform: uppercase; color: #00CFFF; display: flex; align-items: center; gap: 10px; }
+  .A .tag::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #3dffa2; box-shadow: 0 0 0 4px rgba(61,255,162,.18); }
+  .A h3 { font-size: clamp(2.1rem, 5.4vw, 4rem); line-height: 1.02; letter-spacing: -.035em; font-weight: 600; margin: 18px 0 16px; }
+  .A h3 em { font-style: normal; color: #00CFFF; }
+  .A p.lead { color: #9fb6c0; max-width: 46ch; margin: 0; }
+  .A .screen { border: 1px solid #16323c; border-radius: 16px; background: linear-gradient(180deg, #08131a, #050b0f); padding: 18px; position: relative; }
+  .A .screen::before { content: ""; position: absolute; inset: 0; border-radius: 16px; background-image: linear-gradient(#0e2731 1px, transparent 1px), linear-gradient(90deg, #0e2731 1px, transparent 1px); background-size: 28px 28px; opacity: .55; pointer-events: none; }
+  .A .screen > * { position: relative; }
+  .A .row { display: flex; justify-content: space-between; font: 600 .7rem "JetBrains Mono", monospace; color: #6d8a96; letter-spacing: .08em; }
+  .A svg.ecg { width: 100%; height: 120px; display: block; margin: 8px 0; }
+  .A .ecg path { fill: none; stroke: #00CFFF; stroke-width: 2.4; stroke-linejoin: round; stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 3.2s ease-out forwards infinite; filter: drop-shadow(0 0 6px rgba(0,207,255,.7)); }
+  @keyframes draw { 60%, 100% { stroke-dashoffset: 0; } }
+  .A .signs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .A .signs div { border: 1px solid #16323c; border-radius: 10px; padding: 10px; font-size: .78rem; color: #9fb6c0; background: rgba(5,11,15,.7); }
+  .A .signs b { display: block; font: 600 .68rem "JetBrains Mono", monospace; letter-spacing: .1em; margin-bottom: 4px; }
+  .A .card { border: 1px solid #14272f; border-radius: 14px; padding: 20px; background: #070d11; }
+  .A .card b { font: 600 .7rem "JetBrains Mono", monospace; letter-spacing: .12em; }
+  .A .card h4 { margin: 10px 0 6px; font-size: 1.1rem; font-weight: 600; }
+  .A .card p { margin: 0; color: #86a0ab; font-size: .88rem; }
+
+  /* ---------- B · Bold ---------- */
+  .B { background: #f4f4f0; color: #0a0a0a; font-family: "Archivo", sans-serif; }
+  .B .nav { border-bottom: 2px solid #0a0a0a; }
+  .B .logo { font-stretch: 115%; text-transform: uppercase; }
+  .B .btn { border-radius: 0; }
+  .B .btn.p { background: #0a0a0a; color: #fff; }
+  .B .btn.s { border: 2px solid #0a0a0a; }
+  .B .hero { grid-template-columns: 1fr; padding-bottom: 0; }
+  .B h3 { font-size: clamp(2.8rem, 10.5vw, 8.4rem); line-height: .88; letter-spacing: -.045em; font-weight: 900; font-stretch: 88%; text-transform: uppercase; margin: 0; }
+  .B h3 mark { background: #00CFFF; color: #0a0a0a; padding: 0 .12em; }
+  .B .under { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; margin-top: 26px; padding-bottom: clamp(24px, 4vw, 44px); }
+  .B .under p { margin: 0; font-size: 1.08rem; max-width: 48ch; font-weight: 500; }
+  @media (max-width: 720px) { .B .under { grid-template-columns: 1fr; } }
+  .B .ticker { background: #00CFFF; border-block: 2px solid #0a0a0a; padding: 12px 0; overflow: hidden; white-space: nowrap; font-weight: 800; text-transform: uppercase; font-stretch: 110%; letter-spacing: .02em; }
+  .B .ticker span { display: inline-block; animation: slide 22s linear infinite; }
+  @keyframes slide { to { transform: translateX(-50%); } }
+  .B .trio { gap: 0; padding: 0; }
+  .B .card { padding: 26px clamp(16px, 3vw, 30px) 30px; border-right: 2px solid #0a0a0a; }
+  .B .card:last-child { border-right: 0; }
+  @media (max-width: 860px) { .B .card { border-right: 0; border-bottom: 2px solid #0a0a0a; } .B .card:last-child { border-bottom: 0; } }
+  .B .card b { font-size: 3.4rem; font-weight: 900; line-height: 1; font-stretch: 80%; -webkit-text-stroke: 2px #0a0a0a; color: transparent; }
+  .B .card h4 { margin: 14px 0 6px; font-size: 1.35rem; font-weight: 800; text-transform: uppercase; letter-spacing: -.01em; }
+  .B .card p { margin: 0; font-size: .95rem; color: #333; }
+  .B .card:hover { background: #0a0a0a; color: #fff; } .B .card:hover p { color: #cfcfcf; } .B .card:hover b { -webkit-text-stroke-color: #00CFFF; }
+
+  /* ---------- C · Soft product ---------- */
+  .C { background: radial-gradient(700px 380px at 12% 0%, #d9f7ff 0%, transparent 65%), radial-gradient(600px 400px at 100% 30%, #ebe6ff 0%, transparent 60%), #fbfcfe; color: #0f1b2d; font-family: "Plus Jakarta Sans", sans-serif; }
+  .C .nav { margin: 14px clamp(12px, 3vw, 30px) 0; background: rgba(255,255,255,.75); border: 1px solid #e3eaf2; border-radius: 999px; padding-block: 10px; backdrop-filter: blur(8px); }
+  .C .logo i { font-style: normal; color: #00a9d4; }
+  .C .btn.p { background: linear-gradient(135deg, #00CFFF, #1c8dff); color: #fff; box-shadow: 0 10px 24px -8px rgba(0,160,230,.6); }
+  .C .btn.s { background: #fff; border: 1px solid #dfe7f0; }
+  .C .pill { display: inline-flex; gap: 8px; align-items: center; font-size: .8rem; font-weight: 700; background: #fff; border: 1px solid #dfe7f0; padding: 6px 14px; border-radius: 999px; color: #0a6f8c; }
+  .C h3 { font-size: clamp(2.1rem, 5vw, 3.7rem); line-height: 1.06; letter-spacing: -.035em; font-weight: 800; margin: 18px 0 16px; }
+  .C h3 em { font-style: normal; background: linear-gradient(120deg, #00b7e6, #6a5cff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .C p.lead { color: #51627a; max-width: 46ch; margin: 0; font-size: 1.05rem; }
+  .C .stage { position: relative; padding: 18px 8px 30px 22px; }
+  .C .browser { background: #fff; border: 1px solid #e3eaf2; border-radius: 18px; box-shadow: 0 30px 60px -30px rgba(24,60,110,.35); overflow: hidden; }
+  .C .bar { display: flex; gap: 6px; padding: 12px 14px; border-bottom: 1px solid #eef2f7; }
+  .C .bar i { width: 9px; height: 9px; border-radius: 50%; background: #dbe3ec; }
+  .C .body { padding: 16px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 12px; }
+  .C .tile { border-radius: 12px; background: #f3f7fb; padding: 12px; font-size: .76rem; color: #51627a; font-weight: 600; }
+  .C .tile.big { grid-row: span 2; background: linear-gradient(160deg, #e2f8ff, #f1eeff); }
+  .C .bars { display: flex; align-items: flex-end; gap: 6px; height: 96px; margin-top: 12px; }
+  .C .bars i { flex: 1; border-radius: 6px 6px 2px 2px; background: linear-gradient(180deg, #00CFFF, #7cc8ff); transform-origin: bottom; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes grow { from { transform: scaleY(.1); } }
+  .C .float { position: absolute; background: #fff; border: 1px solid #e3eaf2; border-radius: 14px; padding: 10px 14px; font-size: .8rem; font-weight: 700; box-shadow: 0 18px 34px -18px rgba(24,60,110,.45); display: flex; gap: 8px; align-items: center; animation: bob 5s ease-in-out infinite; }
+  .C .float.one { top: 0; right: 0; } .C .float.two { bottom: 6px; left: 0; animation-delay: -2.5s; }
+  .C .float u { width: 22px; height: 22px; border-radius: 7px; background: #e2f8ff; display: grid; place-items: center; text-decoration: none; color: #008fb5; }
+  @keyframes bob { 50% { transform: translateY(-8px); } }
+  .C .card { background: #fff; border: 1px solid #e3eaf2; border-radius: 20px; padding: 22px; box-shadow: 0 14px 30px -24px rgba(24,60,110,.4); }
+  .C .card u { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; text-decoration: none; font-weight: 800; }
+  .C .card h4 { margin: 14px 0 6px; font-size: 1.1rem; font-weight: 800; }
+  .C .card p { margin: 0; color: #5d6d84; font-size: .9rem; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .A .ecg path { stroke-dashoffset: 0; } }
+  footer { max-width: 1180px; margin: 0 auto; padding: 34px 20px 60px; color: #a9b3bd; }
+</style>
+</head>
+<body>
+<div class="intro">
+  <h1>٣ اتجاهات مختلفة تمامًا لشكل Brand Vitals الجديد</h1>
+  <p>كل اتجاه معمول على نفس الجزء من الهوم بيدج (الهيدر، الهيرو، وكروت الخدمات) عشان المقارنة تبقى عادلة. اللون السماوي بتاع البراند ثابت في التلاتة.</p>
+  <p>اختار واحد، أو قولي «A بس بخط C» مثلًا، وأنا أبني عليه الموقع كله. الكلام والعناوين وروابط الصفحات مش هتتغير، فظهورك في جوجل و ChatGPT محفوظ.</p>
+</div>
+<nav class="picker" aria-label="الاتجاهات"><div><a href="#a">A · المونيتور</a><a href="#b">B · الجريء</a><a href="#c">C · الناعم</a></div></nav>
+
+<section class="dir" id="a">
+  <header><b>A</b><h2>المونيتور: غامق، دقيق، زي شاشة العلامات الحيوية</h2></header>
+  <p>بيبني على اسم «Vitals» نفسه: خط نبض حي، شبكة قياس، وأرقام بخط الأجهزة. إحساسه: وكالة بتقيس كل حاجة. مناسب لو عايز تبان تقني وجاد.</p>
+  <div class="frame A">
+    <div class="nav"><span class="logo">brand<i>vitals</i></span><span class="l">Services</span><span class="l">Work</span><span class="l">Insights</span><span class="btn p">Book a call</span></div>
+    <div class="hero">
+      <div>
+        <span class="tag">Performance agency · Cairo &amp; Riyadh</span>
+        <h3>Marketing with a <em>pulse</em> you can read.</h3>
+        <p class="lead">Paid media, SEO, content and tracking run as one system, reported in the numbers your finance team already trusts.</p>
+        <div class="cta-row"><span class="btn p">Get your free Vitals Score</span><span class="btn s">See how we work</span></div>
+      </div>
+      <div class="screen" aria-hidden="true">
+        <div class="row"><span>GROWTH MONITOR</span><span>LIVE</span></div>
+        <svg class="ecg" viewBox="0 0 600 120" preserveAspectRatio="none"><path d="M0 70 H110 l14 -8 l12 8 H170 l10 14 l14 -70 l16 92 l12 -36 H300 l14 -8 l12 8 H370 l10 14 l14 -70 l16 92 l12 -36 H600"/></svg>
+        <div class="signs">
+          <div><b style="color:#00CFFF">ACQUIRE</b>Paid social &amp; search</div>
+          <div><b style="color:#ffc857">FOUND</b>SEO &amp; AI answers</div>
+          <div><b style="color:#3dffa2">CONVERT</b>Web &amp; tracking</div>
+        </div>
+      </div>
+    </div>
+    <div class="trio">
+      <div class="card"><b style="color:#00CFFF">01 / PERFORMANCE</b><h4>Paid social that pays back</h4><p>Creative testing, clean tracking and budgets moved by evidence.</p></div>
+      <div class="card"><b style="color:#ffc857">02 / SEARCH</b><h4>Found in Arabic and English</h4><p>Ranking where customers search, including AI assistants.</p></div>
+      <div class="card"><b style="color:#3dffa2">03 / WEB</b><h4>Sites built to convert</h4><p>Fast pages, clear offers, forms that reach your sales team.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dir" id="b">
+  <header><b>B</b><h2>الجريء: أبيض وأسود وسماوي، خط ضخم</h2></header>
+  <p>شكل بوستر: عنوان بيملى الشاشة، خطوط حادة، شريط سماوي بيتحرك، ومفيش زخرفة. إحساسه: وكالة واثقة وكرييتف. مناسب لو عايز الناس تفتكر الموقع من أول ثانية.</p>
+  <div class="frame B">
+    <div class="nav"><span class="logo">Brand Vitals</span><span class="l">Services</span><span class="l">Work</span><span class="l">Insights</span><span class="btn p">Book a call</span></div>
+    <div class="hero">
+      <h3>Growth<br>you can <mark>measure.</mark></h3>
+      <div class="under"><p>A performance agency in Cairo and Riyadh. Paid media, SEO, content and tracking, run as one accountable team.</p><div class="cta-row" style="margin:0"><span class="btn p">Free Vitals Score →</span><span class="btn s">Our work</span></div></div>
+    </div>
+    <div class="ticker" aria-hidden="true"><span>Paid social ✦ Google Ads ✦ SEO ✦ Branding ✦ Web &amp; CRO ✦ Tracking ✦ Paid social ✦ Google Ads ✦ SEO ✦ Branding ✦ Web &amp; CRO ✦ Tracking ✦ Paid social ✦ Google Ads ✦ SEO ✦ Branding ✦ Web &amp; CRO ✦ Tracking ✦ Paid social ✦ Google Ads ✦ SEO ✦ Branding ✦ Web &amp; CRO ✦ Tracking ✦ </span></div>
+    <div class="trio">
+      <div class="card"><b>01</b><h4>Performance</h4><p>Creative testing, clean tracking and budgets moved by evidence.</p></div>
+      <div class="card"><b>02</b><h4>Search</h4><p>Ranking where customers search, including AI assistants.</p></div>
+      <div class="card"><b>03</b><h4>Web</h4><p>Fast pages, clear offers, forms that reach your sales team.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dir" id="c">
+  <header><b>C</b><h2>الناعم: فاتح، كروت مدورة، وشاشة منتج عايمة</h2></header>
+  <p>أقرب لروح الهيرو اللي عاجبك دلوقتي (إطار المتصفح والكروت العايمة) بس أنضف وأحدث: ألوان هادية، ظلال ناعمة، وحركة خفيفة. إحساسه: شركة تقنية حديثة وسهلة.</p>
+  <div class="frame C">
+    <div class="nav"><span class="logo">brand<i>vitals</i></span><span class="l">Services</span><span class="l">Work</span><span class="l">Insights</span><span class="btn p">Book a call</span></div>
+    <div class="hero">
+      <div>
+        <span class="pill">● Performance agency · Cairo &amp; Riyadh</span>
+        <h3>Healthy growth, <em>checked every week.</em></h3>
+        <p class="lead">Paid media, SEO, content and tracking in one team, with one clear report you can actually read.</p>
+        <div class="cta-row"><span class="btn p">Get your free Vitals Score</span><span class="btn s">See how we work</span></div>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <div class="browser">
+          <div class="bar"><i></i><i></i><i></i></div>
+          <div class="body">
+            <div class="tile big">Weekly report<div class="bars"><i style="height:38%"></i><i style="height:52%;animation-delay:.08s"></i><i style="height:46%;animation-delay:.16s"></i><i style="height:68%;animation-delay:.24s"></i><i style="height:60%;animation-delay:.32s"></i><i style="height:84%;animation-delay:.4s"></i><i style="height:96%;animation-delay:.48s"></i></div></div>
+            <div class="tile">Leads by channel</div>
+            <div class="tile">Next actions</div>
+          </div>
+        </div>
+        <div class="float one"><u>✓</u>Tracking verified</div>
+        <div class="float two"><u>↗</u>New lead from search</div>
+      </div>
+    </div>
+    <div class="trio">
+      <div class="card"><u style="background:#e2f8ff;color:#008fb5">P</u><h4>Paid social that pays back</h4><p>Creative testing, clean tracking and budgets moved by evidence.</p></div>
+      <div class="card"><u style="background:#fff3d6;color:#a86a00">S</u><h4>Found in Arabic and English</h4><p>Ranking where customers search, including AI assistants.</p></div>
+      <div class="card"><u style="background:#ebe6ff;color:#5a45d6">W</u><h4>Sites built to convert</h4><p>Fast pages, clear offers, forms that reach your sales team.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>دي عينات للشكل بس، مش الموقع النهائي. الرسومات اللي فيها توضيحية ومفيهاش أي أرقام حقيقية.</footer>
+</body>
+</html>
